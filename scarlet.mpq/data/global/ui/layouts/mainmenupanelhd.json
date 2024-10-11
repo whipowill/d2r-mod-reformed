@@ -5,10 +5,13 @@
         "onlinePlayButtonPosition": { "x": -624, "y": 1865 },
         "offlinePlayButtonPosition": { "x": -305, "y": 1900 },
         "playerClassScale": [
-            { "playerClass": "Assassin", "scale": 1.12 },
-            { "playerClass": "Amazon", "scale": 1.05 },
-            { "playerClass": "Druid", "scale": 0.97 },
-            { "playerClass": "Sorceress", "scale": 1.11 },
+            { "playerClass": "Assassin", "scale": 0.01 },
+            { "playerClass": "Amazon", "scale": 0.01 },
+            { "playerClass": "Druid", "scale": 0.01 },
+            { "playerClass": "Sorceress", "scale": 0.01 },
+            { "playerClass": "Barbarian", "scale": 0.01 },
+            { "playerClass": "Paladin", "scale": 0.01 },
+            { "playerClass": "Necromancer", "scale": 0.01 },
         ],
         "deadHardcoreTint": { "r": 1.0, "g": 0.3, "b": 0.3, "a": 1.0 },
     },
@@ -102,6 +105,77 @@
                 "overrideFrustumBoundsOnActivate": true,
                 "visDataPath": "data/hd/env/vis/ui_frontend_act5_vignette.json",
                 "iblDataPath": "data/hd/env/ibl/act3_IW_over29_CUBEMAP.ibls",
+            }
+        },
+        {
+            "type": "PlayerLoaderWidget", "name": "PreloadAmazon",
+            "fields": {
+                "playerClass": "Amazon",
+                "animation": "FrontendNeutral",
+                "animationSpeed": 0,
+                "captureInView": "$INT_MAX"
+            }
+        },
+        {
+            "type": "PlayerLoaderWidget", "name": "PreloadSorceress",
+            "fields": {
+                "playerClass": "Sorceress",
+                "animation": "FrontendNeutral",
+                "animationSpeed": 0,
+                "captureInView": "$INT_MAX"
+            }
+        },
+        {
+            "type": "PlayerLoaderWidget", "name": "PreloadNecromancer",
+            "fields": {
+                "playerClass": "Necromancer",
+                "animation": "FrontendNeutral",
+                "animationSpeed": 0,
+                "captureInView": "$INT_MAX"
+            }
+        },
+        {
+            "type": "PlayerLoaderWidget", "name": "PreloadPaladin",
+            "fields": {
+                "playerClass": "Paladin",
+                "animation": "FrontendNeutral",
+                "animationSpeed": 0,
+                "captureInView": "$INT_MAX"
+            }
+        },
+        {
+            "type": "PlayerLoaderWidget", "name": "PreloadBarbarian",
+            "fields": {
+                "playerClass": "Barbarian",
+                "animation": "FrontendNeutral",
+                "animationSpeed": 0,
+                "captureInView": "$INT_MAX"
+            }
+        },
+        {
+            "type": "PlayerLoaderWidget", "name": "PreloadDruid",
+            "fields": {
+                "playerClass": "Druid",
+                "animation": "FrontendNeutral",
+                "animationSpeed": 0,
+                "captureInView": "$INT_MAX"
+            }
+        },
+        {
+            "type": "PlayerLoaderWidget", "name": "PreloadAssassin",
+            "fields": {
+                "playerClass": "Assassin",
+                "animation": "FrontendNeutral",
+                "animationSpeed": 0,
+                "captureInView": "$INT_MAX"
+            }
+        },
+        {
+            "type": "PlayerLoaderWidget", "name": "Player",
+            "fields": {
+                "position": [ 56.0, 0.18, 109.0 ],
+                "yawDegrees": 65,
+                "animation": "FrontendNeutral"
             }
         },
         {
