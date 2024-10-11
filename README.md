@@ -2,6 +2,13 @@
 
 This is my custom mod for Diablo II Resurrected.
 
+## Todo
+
+- Make enemy nameplace subtitle smaller (or title bigger)
+- Finish icons
+- Add stacking gems
+- Add merc auras?
+
 ## Credits
 
 - [HighTechLowIQ](https://github.com/HighTechLowIQ/ModdingDiablo2Resurrected) for the stash mod
