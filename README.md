@@ -33,7 +33,8 @@ I'm focusing on QOL features and trying to leave the game as classic as I can.
         - Can drop higher runes than vanilla
 - **Class Tweaks**
     - Druid
-        - Lycanthropy lasts 1 minute per point (from 20 seconds)
+        - Lycanthropy lasts 1min per point (from 20sec)
+        - Vines and Spirits cannot die
 - **Merc Auras**
     - Act 1
         - Fire - Blessed Aim
