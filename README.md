@@ -85,8 +85,8 @@ When using this type ``/nopickup`` when you enter the game so you don't pickup e
 
 With a little help from my friends:
 
-- [HighTechLowIQ](https://github.com/HighTechLowIQ/ModdingDiablo2Resurrected) - original stash mod
-- [Givemhell](https://www.nexusmods.com/diablo2resurrected/mods/102?tab=files&file_id=507) - original font item icons
+- [hightechlowiq](https://github.com/HighTechLowIQ/ModdingDiablo2Resurrected) - original stash mod
+- [givemhell](https://www.nexusmods.com/diablo2resurrected/mods/102?tab=files&file_id=507) - original font item icons
 - [olegbl](https://www.nexusmods.com/diablo2resurrected/mods/176?tab=description) - original stackable gem/rune icons
 - [deadjack](https://www.nexusmods.com/diablo2resurrected/mods/8?tab=files) - original melee splash mod
 
@@ -97,6 +97,6 @@ Links to places that might be helpful:
 - [Blizzard](https://diablo2.blizzard.com/en-us/) - official website
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - official guide
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - track your items
-- [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - see what runewords you can make
-- [D2 Planner](https://d2planner.github.io/skills/) - plan your skill allocations
+- [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - plan your runewords
+- [D2 Planner](https://d2planner.github.io/skills/) - plan your skills
 - [Reddit](https://www.reddit.com/r/diablo2/) - forum for all the D2 fans
