@@ -2,7 +2,7 @@
 
 This is a custom mod for Diablo II Resurrected v2.4.3 (June 29, 2022).  This is the version of the game I play on SSF offline, which I think represents the last true "classic" D2 version.
 
-It's also the version I'm hearing rumors could support TCP/IP games.  Whoever at Blizzard made the decision to strip TCP/IP from the game -- after it was already in there -- is going to Hell.
+It's also the version I'm hearing [rumors](https://www.d2rmodding.com/remodded) could support TCP/IP games.  Whoever at Blizzard made the decision to strip TCP/IP from the game -- after it was already in there -- is going to Hell.
 
 I'm putting a lot of effort into making this as good as I can get it, w/ a few ideas from Project Diablo 2.  I plan to spend quite a bit of time adventuring in Sanctuary.
 
@@ -20,7 +20,8 @@ I'm focusing on QOL features and trying to leave the game as classic as I can.
 - **Stackable Items** - gems and runes are now stackable (when converted in cube)
 - **Cube Recipies** - 3x gem and 2x rune cube to upgrade
 - **Light Beams** - charms, jewels, and runes show beams of light
-- **Infinite Ammo** - quivers can be magic, quivers and throwing weapons replenish
+- **Magic Quivers** - arrows and bolts can be magic and rare
+- **Infinite Ammo** - quivers and throwing weapons replenish quantity
 - **Splash Damage** - all melee weapons have splash damage (tuned low at 25%)
 - **Drop Rates**
     - Runes (experimental & subject to change)
@@ -40,7 +41,6 @@ I'm focusing on QOL features and trying to leave the game as classic as I can.
     - Act 2 (no changes)
     - Act 3 (no changes YET)
     - Act 5 (no changes YET)
-
 
 ### Todo
 

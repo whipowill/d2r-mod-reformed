@@ -1692,6 +1692,6 @@
     {
         "id": 27076,
         "Key": "splash3",
-        "enUS": "Melee attacks cause splash damage"
+        "enUS": "Melee attacks deal splash damage"
     }
 ]
