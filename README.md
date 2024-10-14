@@ -69,12 +69,8 @@ When dealing w/ stackable gems and runes, convert them into their stackable form
 
 ### Todo
 
-- Add margin spacing to loot drop frames
 - Enable socket recipies on unique/set/rare/magic items
 - Jewel Fragments - idea from PD2, would have to change recipies
-- Merc Auras - do I want this?  will aura show on Merc screen?
-- Splash Damage - do I want this?  does it break the game?
-- Tier labels for unique and set items
 
 ### Not Doable
 
@@ -105,6 +101,10 @@ But let me talk about the poisitives.
 - Download the icon font file (100mb) from [here](https://mega.nz/folder/2d5DQBQC#VQoZVQUwnf0JzgEr1qplYg)
 - Place font in ``mods/reformed/reformed.mpq/data/hd/ui/fonts/``
 - Launch the game
+
+### Notes About Mods
+
+To disable or tweak melee splash damage, open ``missiles.txt`` and look for row 688 column DH.  I have this set to ``32`` which means 25% of weapon damage gets splashed.  This is effectively an across the board, blanket 25% boost to DPS for melee.  Changing that to ``64`` would mean half 50% gets splashed.  Changing to ``0`` would mean the feature is deactivated.
 
 ## Keyboard Macros
 

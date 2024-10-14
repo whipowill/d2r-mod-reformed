@@ -1688,5 +1688,10 @@
         "id": 29998,
         "Key": "StackableRune",
         "enUS": "Can be transmuted into a usable rune"
+    },
+    {
+        "id": 27076,
+        "Key": "splash3",
+        "enUS": "Melee attacks cause splash damage"
     }
 ]
