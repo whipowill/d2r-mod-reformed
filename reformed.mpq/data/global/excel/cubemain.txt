@@ -154,6 +154,13 @@ Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level	1			0	28				2
 1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor	1	1		100					4	armo,bas,set	r07	r13	gpw				useitem,mod,exc				levelreq			5	5																																																																															0
 1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon	1	1		100					4	weap,exc,set	r17	r21	gpg				useitem,mod,eli				levelreq			7	7																																																																															0
 1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor	1	1		100					4	armo,exc,set	r18	r20	gpw				useitem,mod,eli				levelreq			7	7																																																																															0
+Error Protect on Throwing Weaps	1			100					2	thro,nos	r15																																																																																													0
+helrune + torso → socketed torso	1			100					2	tors,nos	r15						useitem				sock			1	6																																																																															0
+helrune + weapon → socketed weapon	1			100					2	weap,nos	r15						useitem				sock			1	6																																																																															0
+helrune + helm → socketed helm	1			100					2	helm,nos	r15						useitem				sock			1	6																																																																															0
+helrune + shield → socketed shield	1			100					2	shld,nos	r15						useitem				sock			1	6																																																																															0
+Key → token of absolution	1			0					1	key							toa																																																																																							0
+SafeUnsocket	1			100					2	any,sock	key,qty=1						useitem,rem																																																																																							0
 gems gcv -> stackable zcv	1			0					1	gcv							zcv																																																																																							0
 gems stackable zcv -> gcv	1			0	18	70	1		1	zcv							gcv																																																																																							0
 gems release gcv from stack of x48 zcv	1			0	18	70	48		1	zcv							zcv,qty=47																													gcv																																																										0

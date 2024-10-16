@@ -18,7 +18,6 @@ I'm focusing on QOL features and trying to leave the game as classic as I can.
 - **Cain Location** - Deckard Cain now stands by the stash in Act V
 - **Loot Filter** - shortening names w/ icons since we don't have a true loot filter
 - **Stackable Items** - gems and runes are now stackable (when converted in cube)
-- **Cube Recipies** - 3x gem and 2x rune cube to upgrade
 - **Light Beams** - charms, jewels, and runes show beams of light
 - **Magic Quivers** - arrows and bolts can be magic and rare
 - **Infinite Ammo** - quivers and throwing weapons replenish quantity
@@ -32,6 +31,8 @@ I'm focusing on QOL features and trying to leave the game as classic as I can.
         - Always drops 3 runes
         - Can drop higher runes than vanilla
 - **Class Tweaks**
+    - Amazon
+        - Restored her blonde hair
     - Druid
         - Lycanthropy lasts 1min per point (from 20sec)
         - Vines and Spirits cannot die
@@ -42,6 +43,13 @@ I'm focusing on QOL features and trying to leave the game as classic as I can.
     - Act 2 (no changes)
     - Act 3 (no changes YET)
     - Act 5 (no changes YET)
+- **Cube Recipies**
+    - 3x Gem -> Upgraded Gem
+    - 2x Rune -> Upgraded Rune
+    - Key -> Token of Absolution
+    - Socketed Item + Key -> Safe Unsocket
+    - Any Armor/Weapon + Hel Rune -> Socketed Item (experimental)
+        - The idea is to replicate "corrupting" items, but to do it in a way that just adds sockets beyond what Larzuk would give you.  The reason I like this is bc the game is filled w/ gems and runes that we don't really use beyond runewords -- so we should use them in sockets in our unique and set items.  The risk of "corrupting" is that you might only roll one socket.
 
 ### Todo
 
@@ -90,6 +98,7 @@ With a little help from my friends:
 - [givemhell](https://www.nexusmods.com/diablo2resurrected/mods/102?tab=files&file_id=507) - original font item icons
 - [olegbl](https://www.nexusmods.com/diablo2resurrected/mods/176?tab=description) - original stackable gem/rune icons
 - [deadjack](https://www.nexusmods.com/diablo2resurrected/mods/8?tab=files) - original melee splash mod
+- [yoloswag](https://www.nexusmods.com/diablo2resurrected/mods/45) - original Amazon retouch
 
 ## External Links
 

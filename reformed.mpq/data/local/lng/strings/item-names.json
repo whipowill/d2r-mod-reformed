@@ -77,77 +77,77 @@
     {
         "id": 1937,
         "Key": "qui",
-        "enUS": "\u208a Quilted Armor"
+        "enUS": "\u2160 Quilted Armor"
     },
     {
         "id": 1938,
         "Key": "lea",
-        "enUS": "\u208a Leather Armor"
+        "enUS": "\u2160 Leather Armor"
     },
     {
         "id": 1939,
         "Key": "hla",
-        "enUS": "\u208a Hard Leather Armor"
+        "enUS": "\u2160 Hard Leather Armor"
     },
     {
         "id": 1940,
         "Key": "stu",
-        "enUS": "\u208a Studded Leather"
+        "enUS": "\u2160 Studded Leather"
     },
     {
         "id": 1941,
         "Key": "rng",
-        "enUS": "\u208a Ring Mail"
+        "enUS": "\u2160 Ring Mail"
     },
     {
         "id": 1942,
         "Key": "scl",
-        "enUS": "\u208a Scale Mail"
+        "enUS": "\u2160 Scale Mail"
     },
     {
         "id": 1943,
         "Key": "chn",
-        "enUS": "\u208a Chain Mail"
+        "enUS": "\u2160 Chain Mail"
     },
     {
         "id": 1944,
         "Key": "brs",
-        "enUS": "\u208a Breast Plate"
+        "enUS": "\u2160 Breast Plate"
     },
     {
         "id": 1945,
         "Key": "spl",
-        "enUS": "\u208a Splint Mail"
+        "enUS": "\u2160 Splint Mail"
     },
     {
         "id": 1946,
         "Key": "plt",
-        "enUS": "\u208a Plate Mail"
+        "enUS": "\u2160 Plate Mail"
     },
     {
         "id": 1947,
         "Key": "fld",
-        "enUS": "\u208a Field Plate"
+        "enUS": "\u2160 Field Plate"
     },
     {
         "id": 1948,
         "Key": "gth",
-        "enUS": "\u208a Gothic Plate"
+        "enUS": "\u2160 Gothic Plate"
     },
     {
         "id": 1949,
         "Key": "ful",
-        "enUS": "\u208a Full Plate Mail"
+        "enUS": "\u2160 Full Plate Mail"
     },
     {
         "id": 1950,
         "Key": "aar",
-        "enUS": "\u208a Ancient Armor"
+        "enUS": "\u2160 Ancient Armor"
     },
     {
         "id": 1951,
         "Key": "ltp",
-        "enUS": "\u208a Light Plate"
+        "enUS": "\u2160 Light Plate"
     },
     {
         "id": 1952,
@@ -787,77 +787,77 @@
     {
         "id": 2080,
         "Key": "xtp",
-        "enUS": "\u00b2\u208a Mage Plate"
+        "enUS": "\u00b2\u2160 Mage Plate"
     },
     {
         "id": 2081,
         "Key": "xar",
-        "enUS": "\u00b2\u208a Ornate Plate"
+        "enUS": "\u00b2\u2160 Ornate Plate"
     },
     {
         "id": 2082,
         "Key": "xul",
-        "enUS": "\u00b2\u208a Chaos Armor"
+        "enUS": "\u00b2\u2160 Chaos Armor"
     },
     {
         "id": 2083,
         "Key": "xth",
-        "enUS": "\u00b2\u208a Embossed Plate"
+        "enUS": "\u00b2\u2160 Embossed Plate"
     },
     {
         "id": 2084,
         "Key": "xld",
-        "enUS": "\u00b2\u208a Sharktooth Armor"
+        "enUS": "\u00b2\u2160 Sharktooth Armor"
     },
     {
         "id": 2085,
         "Key": "xlt",
-        "enUS": "\u00b2\u208a Templar Coat"
+        "enUS": "\u00b2\u2160 Templar Coat"
     },
     {
         "id": 2086,
         "Key": "xpl",
-        "enUS": "\u00b2\u208a Russet Armor"
+        "enUS": "\u00b2\u2160 Russet Armor"
     },
     {
         "id": 2087,
         "Key": "xrs",
-        "enUS": "\u00b2\u208a Cuirass"
+        "enUS": "\u00b2\u2160 Cuirass"
     },
     {
         "id": 2088,
         "Key": "xhn",
-        "enUS": "\u00b2\u208a Mesh Armor"
+        "enUS": "\u00b2\u2160 Mesh Armor"
     },
     {
         "id": 2089,
         "Key": "xcl",
-        "enUS": "\u00b2\u208a Tigulated Mail"
+        "enUS": "\u00b2\u2160 Tigulated Mail"
     },
     {
         "id": 2090,
         "Key": "xng",
-        "enUS": "\u00b2\u208a Linked Mail"
+        "enUS": "\u00b2\u2160 Linked Mail"
     },
     {
         "id": 2091,
         "Key": "xtu",
-        "enUS": "\u00b2\u208a Trellised Armor"
+        "enUS": "\u00b2\u2160 Trellised Armor"
     },
     {
         "id": 2092,
         "Key": "xla",
-        "enUS": "\u00b2\u208a Demonhide Armor"
+        "enUS": "\u00b2\u2160 Demonhide Armor"
     },
     {
         "id": 2093,
         "Key": "xea",
-        "enUS": "\u00b2\u208a Serpentskin Armor"
+        "enUS": "\u00b2\u2160 Serpentskin Armor"
     },
     {
         "id": 2094,
         "Key": "xui",
-        "enUS": "\u00b2\u208a Ghost Armor"
+        "enUS": "\u00b2\u2160 Ghost Armor"
     },
     {
         "id": 2095,
@@ -4512,77 +4512,77 @@
     {
         "id": 20348,
         "Key": "uui",
-        "enUS": "\u00b3\u208a Dusk Shroud"
+        "enUS": "\u00b3\u2160 Dusk Shroud"
     },
     {
         "id": 20349,
         "Key": "uea",
-        "enUS": "\u00b3\u208a Wyrmhide"
+        "enUS": "\u00b3\u2160 Wyrmhide"
     },
     {
         "id": 20350,
         "Key": "ula",
-        "enUS": "\u00b3\u208a Scarab Husk"
+        "enUS": "\u00b3\u2160 Scarab Husk"
     },
     {
         "id": 20351,
         "Key": "utu",
-        "enUS": "\u00b3\u208a Wire Fleece"
+        "enUS": "\u00b3\u2160 Wire Fleece"
     },
     {
         "id": 20352,
         "Key": "ung",
-        "enUS": "\u00b3\u208a Diamond Mail"
+        "enUS": "\u00b3\u2160 Diamond Mail"
     },
     {
         "id": 20353,
         "Key": "ucl",
-        "enUS": "\u00b3\u208a Loricated Mail"
+        "enUS": "\u00b3\u2160 Loricated Mail"
     },
     {
         "id": 20354,
         "Key": "uhn",
-        "enUS": "\u00b3\u208a Boneweave"
+        "enUS": "\u00b3\u2160 Boneweave"
     },
     {
         "id": 20355,
         "Key": "urs",
-        "enUS": "\u00b3\u208a Great Hauberk"
+        "enUS": "\u00b3\u2160 Great Hauberk"
     },
     {
         "id": 20356,
         "Key": "upl",
-        "enUS": "\u00b3\u208a Balrog Skin"
+        "enUS": "\u00b3\u2160 Balrog Skin"
     },
     {
         "id": 20357,
         "Key": "ult",
-        "enUS": "\u00b3\u208a Hellforge Plate"
+        "enUS": "\u00b3\u2160 Hellforge Plate"
     },
     {
         "id": 20358,
         "Key": "uld",
-        "enUS": "\u00b3\u208a Kraken Shell"
+        "enUS": "\u00b3\u2160 Kraken Shell"
     },
     {
         "id": 20359,
         "Key": "uth",
-        "enUS": "\u00b3\u208a Lacquered Plate"
+        "enUS": "\u00b3\u2160 Lacquered Plate"
     },
     {
         "id": 20360,
         "Key": "uul",
-        "enUS": "\u00b3\u208a Shadow Plate"
+        "enUS": "\u00b3\u2160 Shadow Plate"
     },
     {
         "id": 20361,
         "Key": "uar",
-        "enUS": "\u00b3\u208a Sacred Armor"
+        "enUS": "\u00b3\u2160 Sacred Armor"
     },
     {
         "id": 20362,
         "Key": "utp",
-        "enUS": "\u00b3\u208a Archon Plate"
+        "enUS": "\u00b3\u2160 Archon Plate"
     },
     {
         "id": 20363,
