@@ -53,9 +53,7 @@ I'm focusing on QOL features and trying to leave the game as classic as I can.
 
 ### Todo
 
-- Add replenishing quant on unique and set items
 - Enable mass gem upgrades by the stack
-- Enable socket recipies on unique/set/rare/magic items (faux corruption mod)
 - Jewel Fragments from PD2, would have to change recipies
 
 ## Install
