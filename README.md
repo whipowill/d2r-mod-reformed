@@ -4,7 +4,7 @@
 
 This is a custom mod for Diablo II Resurrected v2.4.3 (June 29, 2022).  This is the version of the game I play on SSF offline, which I think represents the last true "classic" D2 version.
 
-It's also the version I'm hearing [rumors](https://www.d2rmodding.com/remodded) could support TCP/IP games.  Whoever at Blizzard made the decision to strip TCP/IP from the game -- after it was already in there -- is going to Hell.
+It's also the version I'm hearing [rumors](https://www.d2rmodding.com/remodded) could get modded support from TCP/IP games.
 
 I'm putting a lot of effort into making this as good as I can get it, w/ a few ideas from Project Diablo 2.  I plan to spend quite a bit of time adventuring in Sanctuary.
 
@@ -18,37 +18,21 @@ I'm focusing on QOL features but trying to leave the game as classic as I can.
 - **Main Menu** - removed character models to show you scenes of Santuary
 - **Extra Stash** - stash has the max 7 tabs allowed by the game
 - **Cain Location** - Deckard Cain now stands by the stash in Act V
-- **Amazon Retouch** - restoring model to be closer to the original game
+- **Amazon Retouch** - restoring model to be closer to original game
 - **Loot Filter** - shortening names w/ icons since we don't have a true loot filter
-- **Stackable Items** - gems and runes are now stackable (when converted in cube)
 - **Magic Quivers** - arrows and bolts can be magic and rare
 - **Infinite Ammo** - quivers and throwing weapons replenish quantity
 - **Splash Damage** - all melee weapons have splash damage (tuned low at 25%)
-- **Drop Rates**
-    - Runes (experimental & subject to change)
-        - Low 60%
-        - Mid 30%
-        - High 10%
-    - Countess
-        - Always drops 3 runes
-        - Can drop higher runes than vanilla
-- **Class Tweaks**
-    - Druid
-        - Lycanthropy lasts 1min per point (from 20sec)
-        - Vines and Spirits cannot die
-- **Merc Auras**
-    - Act 1 - Blessed Aim
-    - Act 3 (no changes YET)
-    - Act 5 (no changes YET)
-- **Cube Recipies**
-    - 3x Gem -> Upgraded Gem
-    - 2x Rune -> Upgraded Rune
-    - 1x Key -> Token of Absolution
-    - Stack of Gems/Runes/Keys -> Separate 1x From Stack
-    - Socketed Item + Key -> Safe Unsocket
-    - Any Armor/Weapon + Worldstone Shard -> Corrupted Item (experimental)
-- **Corrupted Items**
-    - Corrupting an item w/ a Worldstone Shard is a chance to add sockets to the item.  I want the player to have reasons to care about gems and runes, and the only way to make those items meaningful is to make them usable in your unique and set items.  Any armor or weapon can be corrupted.
+- **Countess Counts** - always drops 3 runes, and can drop higher than before
+- **Rune Drops** - high runes are much less punishing to find
+- **Druid Fixes** - Druid shapeshift lasts longer, vines and spirits never die
+- **Merc Auras** - Blessed Aim in Act 1, ____ in Act 3, and ____ in Act 4 (unfinished)
+- **Simple Upgrades** - 3x gem to upgrade gem, 2x rune to upgrade rune
+- **Easy Respec** - cube a key to get a Token of Absolution
+- **Stackable Gems** - cube a gem to convert to stackable form
+- **Stackable Runes** - cube a rune to convert to stackable form
+- **Safe Unsocket** - socketed item + key -> get the item and runes back
+- **Corrupted Items** - unsocketed unique/set item + Worldstone Shard -> socketed item
 
 ### Todo
 
@@ -73,8 +57,6 @@ I'm focusing on QOL features but trying to leave the game as classic as I can.
 When dealing w/ stackable gems and runes, convert them into their stackable form in the Cube.  Due to a flaw in the game itself, you can't merge stacks of items to each other in the stash.  You have to take your stacked items from the stash, merge them in your inventory, and then move them back to the stash.
 
 To disable or tweak melee splash damage, open ``mods/reformed/reformed.mpq/data/global/excel/missiles.txt`` and look for row 688 column DH.  I have this set to ``32`` which means 25% of weapon damage gets splashed (pretty low).  Changing to ``64`` would mean 50% of weapon damage gets splashed.  Changing to ``0`` would mean the feature is disabled.
-
-Replenishing ammo runs at different time frames depending on the item.  Arrows and bolts will replenish at about 1 per 3 seconds.  Javalins seem to replenish at about 1 per 6 seconds.  If it works how it did in D2LOD, if you run your item down to 0 quantity it will disappear and you lose the item.
 
 ### Failures
 
