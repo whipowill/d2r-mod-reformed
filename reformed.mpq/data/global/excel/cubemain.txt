@@ -155,26 +155,17 @@ Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level	1			0	28				2
 1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon	1	1		100					4	weap,exc,set	r17	r21	gpg				useitem,mod,eli				levelreq			7	7																																																																															0
 1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor	1	1		100					4	armo,exc,set	r18	r20	gpw				useitem,mod,eli				levelreq			7	7																																																																															0
 Error Protect on Throwing Weaps	1			100					2	thro,nos	r15																																																																																													0
-helrune + torso → socketed torso	1			100					2	tors,nos	r15						useitem				sock			1	6																																																																															0
-helrune + weapon → socketed weapon	1			100					2	weap,nos	r15						useitem				sock			1	6																																																																															0
-helrune + helm → socketed helm	1			100					2	helm,nos	r15						useitem				sock			1	6																																																																															0
-helrune + shield → socketed shield	1			100					2	shld,nos	r15						useitem				sock			1	6																																																																															0
-Key → token of absolution	1			0					1	key							toa																																																																																							0
+world shard + torso → socketed torso	1			100					2	tors,nos	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+world shard + weapon → socketed weapon	1			100					2	weap,nos	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+world shard + helm → socketed helm	1			100					2	helm,nos	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+world shard + shield → socketed shield	1			100					2	shld,nos	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+Key → token of absolution	1			0	18	70	1		1	key							toa																																																																																							0
+token of absolution → helrune (for testing)	1			0					1	toa							wsh																																																																																							0
+regenerate an item	1			0						any,noe,nos	key,qty=1						useitem,reg																																																																																							0
+regenerate an item (eth)	1			0						any,eth,nos	key,qty=1						useitem,reg,eth																																																																																							0
 SafeUnsocket	1			100					2	any,sock	key,qty=1						useitem,rem																																																																																							0
 gems gcv -> stackable zcv	1			0					1	gcv							zcv																																																																																							0
 gems stackable zcv -> gcv	1			0	18	70	1		1	zcv							gcv																																																																																							0
-gems release gcv from stack of x48 zcv	1			0	18	70	48		1	zcv							zcv,qty=47																													gcv																																																										0
-gems release gcv from stack of x47 zcv	1			0	18	70	47		1	zcv							zcv,qty=46																													gcv																																																										0
-gems release gcv from stack of x46 zcv	1			0	18	70	46		1	zcv							zcv,qty=45																													gcv																																																										0
-gems release gcv from stack of x45 zcv	1			0	18	70	45		1	zcv							zcv,qty=44																													gcv																																																										0
-gems release gcv from stack of x44 zcv	1			0	18	70	44		1	zcv							zcv,qty=43																													gcv																																																										0
-gems release gcv from stack of x43 zcv	1			0	18	70	43		1	zcv							zcv,qty=42																													gcv																																																										0
-gems release gcv from stack of x42 zcv	1			0	18	70	42		1	zcv							zcv,qty=41																													gcv																																																										0
-gems release gcv from stack of x41 zcv	1			0	18	70	41		1	zcv							zcv,qty=40																													gcv																																																										0
-gems release gcv from stack of x40 zcv	1			0	18	70	40		1	zcv							zcv,qty=39																													gcv																																																										0
-gems release gcv from stack of x39 zcv	1			0	18	70	39		1	zcv							zcv,qty=38																													gcv																																																										0
-gems release gcv from stack of x38 zcv	1			0	18	70	38		1	zcv							zcv,qty=37																													gcv																																																										0
-gems release gcv from stack of x37 zcv	1			0	18	70	37		1	zcv							zcv,qty=36																													gcv																																																										0
 gems release gcv from stack of x36 zcv	1			0	18	70	36		1	zcv							zcv,qty=35																													gcv																																																										0
 gems release gcv from stack of x35 zcv	1			0	18	70	35		1	zcv							zcv,qty=34																													gcv																																																										0
 gems release gcv from stack of x34 zcv	1			0	18	70	34		1	zcv							zcv,qty=33																													gcv																																																										0
@@ -212,18 +203,6 @@ gems release gcv from stack of x3 zcv	1			0	18	70	3		1	zcv							zcv,qty=2						
 gems release gcv from stack of x2 zcv	1			0	18	70	2		1	zcv							zcv,qty=1																													gcv																																																										0
 gems gfv -> stackable zfv	1			0					1	gfv							zfv																																																																																							0
 gems stackable zfv -> gfv	1			0	18	70	1		1	zfv							gfv																																																																																							0
-gems release gfv from stack of x48 zfv	1			0	18	70	48		1	zfv							zfv,qty=47																													gfv																																																										0
-gems release gfv from stack of x47 zfv	1			0	18	70	47		1	zfv							zfv,qty=46																													gfv																																																										0
-gems release gfv from stack of x46 zfv	1			0	18	70	46		1	zfv							zfv,qty=45																													gfv																																																										0
-gems release gfv from stack of x45 zfv	1			0	18	70	45		1	zfv							zfv,qty=44																													gfv																																																										0
-gems release gfv from stack of x44 zfv	1			0	18	70	44		1	zfv							zfv,qty=43																													gfv																																																										0
-gems release gfv from stack of x43 zfv	1			0	18	70	43		1	zfv							zfv,qty=42																													gfv																																																										0
-gems release gfv from stack of x42 zfv	1			0	18	70	42		1	zfv							zfv,qty=41																													gfv																																																										0
-gems release gfv from stack of x41 zfv	1			0	18	70	41		1	zfv							zfv,qty=40																													gfv																																																										0
-gems release gfv from stack of x40 zfv	1			0	18	70	40		1	zfv							zfv,qty=39																													gfv																																																										0
-gems release gfv from stack of x39 zfv	1			0	18	70	39		1	zfv							zfv,qty=38																													gfv																																																										0
-gems release gfv from stack of x38 zfv	1			0	18	70	38		1	zfv							zfv,qty=37																													gfv																																																										0
-gems release gfv from stack of x37 zfv	1			0	18	70	37		1	zfv							zfv,qty=36																													gfv																																																										0
 gems release gfv from stack of x36 zfv	1			0	18	70	36		1	zfv							zfv,qty=35																													gfv																																																										0
 gems release gfv from stack of x35 zfv	1			0	18	70	35		1	zfv							zfv,qty=34																													gfv																																																										0
 gems release gfv from stack of x34 zfv	1			0	18	70	34		1	zfv							zfv,qty=33																													gfv																																																										0
@@ -261,18 +240,6 @@ gems release gfv from stack of x3 zfv	1			0	18	70	3		1	zfv							zfv,qty=2						
 gems release gfv from stack of x2 zfv	1			0	18	70	2		1	zfv							zfv,qty=1																													gfv																																																										0
 gems gsv -> stackable zsv	1			0					1	gsv							zsv																																																																																							0
 gems stackable zsv -> gsv	1			0	18	70	1		1	zsv							gsv																																																																																							0
-gems release gsv from stack of x48 zsv	1			0	18	70	48		1	zsv							zsv,qty=47																													gsv																																																										0
-gems release gsv from stack of x47 zsv	1			0	18	70	47		1	zsv							zsv,qty=46																													gsv																																																										0
-gems release gsv from stack of x46 zsv	1			0	18	70	46		1	zsv							zsv,qty=45																													gsv																																																										0
-gems release gsv from stack of x45 zsv	1			0	18	70	45		1	zsv							zsv,qty=44																													gsv																																																										0
-gems release gsv from stack of x44 zsv	1			0	18	70	44		1	zsv							zsv,qty=43																													gsv																																																										0
-gems release gsv from stack of x43 zsv	1			0	18	70	43		1	zsv							zsv,qty=42																													gsv																																																										0
-gems release gsv from stack of x42 zsv	1			0	18	70	42		1	zsv							zsv,qty=41																													gsv																																																										0
-gems release gsv from stack of x41 zsv	1			0	18	70	41		1	zsv							zsv,qty=40																													gsv																																																										0
-gems release gsv from stack of x40 zsv	1			0	18	70	40		1	zsv							zsv,qty=39																													gsv																																																										0
-gems release gsv from stack of x39 zsv	1			0	18	70	39		1	zsv							zsv,qty=38																													gsv																																																										0
-gems release gsv from stack of x38 zsv	1			0	18	70	38		1	zsv							zsv,qty=37																													gsv																																																										0
-gems release gsv from stack of x37 zsv	1			0	18	70	37		1	zsv							zsv,qty=36																													gsv																																																										0
 gems release gsv from stack of x36 zsv	1			0	18	70	36		1	zsv							zsv,qty=35																													gsv																																																										0
 gems release gsv from stack of x35 zsv	1			0	18	70	35		1	zsv							zsv,qty=34																													gsv																																																										0
 gems release gsv from stack of x34 zsv	1			0	18	70	34		1	zsv							zsv,qty=33																													gsv																																																										0
@@ -310,18 +277,6 @@ gems release gsv from stack of x3 zsv	1			0	18	70	3		1	zsv							zsv,qty=2						
 gems release gsv from stack of x2 zsv	1			0	18	70	2		1	zsv							zsv,qty=1																													gsv																																																										0
 gems gzv -> stackable zzv	1			0					1	gzv							zzv																																																																																							0
 gems stackable zzv -> gzv	1			0	18	70	1		1	zzv							gzv																																																																																							0
-gems release gzv from stack of x48 zzv	1			0	18	70	48		1	zzv							zzv,qty=47																													gzv																																																										0
-gems release gzv from stack of x47 zzv	1			0	18	70	47		1	zzv							zzv,qty=46																													gzv																																																										0
-gems release gzv from stack of x46 zzv	1			0	18	70	46		1	zzv							zzv,qty=45																													gzv																																																										0
-gems release gzv from stack of x45 zzv	1			0	18	70	45		1	zzv							zzv,qty=44																													gzv																																																										0
-gems release gzv from stack of x44 zzv	1			0	18	70	44		1	zzv							zzv,qty=43																													gzv																																																										0
-gems release gzv from stack of x43 zzv	1			0	18	70	43		1	zzv							zzv,qty=42																													gzv																																																										0
-gems release gzv from stack of x42 zzv	1			0	18	70	42		1	zzv							zzv,qty=41																													gzv																																																										0
-gems release gzv from stack of x41 zzv	1			0	18	70	41		1	zzv							zzv,qty=40																													gzv																																																										0
-gems release gzv from stack of x40 zzv	1			0	18	70	40		1	zzv							zzv,qty=39																													gzv																																																										0
-gems release gzv from stack of x39 zzv	1			0	18	70	39		1	zzv							zzv,qty=38																													gzv																																																										0
-gems release gzv from stack of x38 zzv	1			0	18	70	38		1	zzv							zzv,qty=37																													gzv																																																										0
-gems release gzv from stack of x37 zzv	1			0	18	70	37		1	zzv							zzv,qty=36																													gzv																																																										0
 gems release gzv from stack of x36 zzv	1			0	18	70	36		1	zzv							zzv,qty=35																													gzv																																																										0
 gems release gzv from stack of x35 zzv	1			0	18	70	35		1	zzv							zzv,qty=34																													gzv																																																										0
 gems release gzv from stack of x34 zzv	1			0	18	70	34		1	zzv							zzv,qty=33																													gzv																																																										0
@@ -359,18 +314,6 @@ gems release gzv from stack of x3 zzv	1			0	18	70	3		1	zzv							zzv,qty=2						
 gems release gzv from stack of x2 zzv	1			0	18	70	2		1	zzv							zzv,qty=1																													gzv																																																										0
 gems gpv -> stackable zpv	1			0					1	gpv							zpv																																																																																							0
 gems stackable zpv -> gpv	1			0	18	70	1		1	zpv							gpv																																																																																							0
-gems release gpv from stack of x48 zpv	1			0	18	70	48		1	zpv							zpv,qty=47																													gpv																																																										0
-gems release gpv from stack of x47 zpv	1			0	18	70	47		1	zpv							zpv,qty=46																													gpv																																																										0
-gems release gpv from stack of x46 zpv	1			0	18	70	46		1	zpv							zpv,qty=45																													gpv																																																										0
-gems release gpv from stack of x45 zpv	1			0	18	70	45		1	zpv							zpv,qty=44																													gpv																																																										0
-gems release gpv from stack of x44 zpv	1			0	18	70	44		1	zpv							zpv,qty=43																													gpv																																																										0
-gems release gpv from stack of x43 zpv	1			0	18	70	43		1	zpv							zpv,qty=42																													gpv																																																										0
-gems release gpv from stack of x42 zpv	1			0	18	70	42		1	zpv							zpv,qty=41																													gpv																																																										0
-gems release gpv from stack of x41 zpv	1			0	18	70	41		1	zpv							zpv,qty=40																													gpv																																																										0
-gems release gpv from stack of x40 zpv	1			0	18	70	40		1	zpv							zpv,qty=39																													gpv																																																										0
-gems release gpv from stack of x39 zpv	1			0	18	70	39		1	zpv							zpv,qty=38																													gpv																																																										0
-gems release gpv from stack of x38 zpv	1			0	18	70	38		1	zpv							zpv,qty=37																													gpv																																																										0
-gems release gpv from stack of x37 zpv	1			0	18	70	37		1	zpv							zpv,qty=36																													gpv																																																										0
 gems release gpv from stack of x36 zpv	1			0	18	70	36		1	zpv							zpv,qty=35																													gpv																																																										0
 gems release gpv from stack of x35 zpv	1			0	18	70	35		1	zpv							zpv,qty=34																													gpv																																																										0
 gems release gpv from stack of x34 zpv	1			0	18	70	34		1	zpv							zpv,qty=33																													gpv																																																										0
@@ -408,18 +351,6 @@ gems release gpv from stack of x3 zpv	1			0	18	70	3		1	zpv							zpv,qty=2						
 gems release gpv from stack of x2 zpv	1			0	18	70	2		1	zpv							zpv,qty=1																													gpv																																																										0
 gems gcy -> stackable zcy	1			0					1	gcy							zcy																																																																																							0
 gems stackable zcy -> gcy	1			0	18	70	1		1	zcy							gcy																																																																																							0
-gems release gcy from stack of x48 zcy	1			0	18	70	48		1	zcy							zcy,qty=47																													gcy																																																										0
-gems release gcy from stack of x47 zcy	1			0	18	70	47		1	zcy							zcy,qty=46																													gcy																																																										0
-gems release gcy from stack of x46 zcy	1			0	18	70	46		1	zcy							zcy,qty=45																													gcy																																																										0
-gems release gcy from stack of x45 zcy	1			0	18	70	45		1	zcy							zcy,qty=44																													gcy																																																										0
-gems release gcy from stack of x44 zcy	1			0	18	70	44		1	zcy							zcy,qty=43																													gcy																																																										0
-gems release gcy from stack of x43 zcy	1			0	18	70	43		1	zcy							zcy,qty=42																													gcy																																																										0
-gems release gcy from stack of x42 zcy	1			0	18	70	42		1	zcy							zcy,qty=41																													gcy																																																										0
-gems release gcy from stack of x41 zcy	1			0	18	70	41		1	zcy							zcy,qty=40																													gcy																																																										0
-gems release gcy from stack of x40 zcy	1			0	18	70	40		1	zcy							zcy,qty=39																													gcy																																																										0
-gems release gcy from stack of x39 zcy	1			0	18	70	39		1	zcy							zcy,qty=38																													gcy																																																										0
-gems release gcy from stack of x38 zcy	1			0	18	70	38		1	zcy							zcy,qty=37																													gcy																																																										0
-gems release gcy from stack of x37 zcy	1			0	18	70	37		1	zcy							zcy,qty=36																													gcy																																																										0
 gems release gcy from stack of x36 zcy	1			0	18	70	36		1	zcy							zcy,qty=35																													gcy																																																										0
 gems release gcy from stack of x35 zcy	1			0	18	70	35		1	zcy							zcy,qty=34																													gcy																																																										0
 gems release gcy from stack of x34 zcy	1			0	18	70	34		1	zcy							zcy,qty=33																													gcy																																																										0
@@ -457,18 +388,6 @@ gems release gcy from stack of x3 zcy	1			0	18	70	3		1	zcy							zcy,qty=2						
 gems release gcy from stack of x2 zcy	1			0	18	70	2		1	zcy							zcy,qty=1																													gcy																																																										0
 gems gfy -> stackable zfy	1			0					1	gfy							zfy																																																																																							0
 gems stackable zfy -> gfy	1			0	18	70	1		1	zfy							gfy																																																																																							0
-gems release gfy from stack of x48 zfy	1			0	18	70	48		1	zfy							zfy,qty=47																													gfy																																																										0
-gems release gfy from stack of x47 zfy	1			0	18	70	47		1	zfy							zfy,qty=46																													gfy																																																										0
-gems release gfy from stack of x46 zfy	1			0	18	70	46		1	zfy							zfy,qty=45																													gfy																																																										0
-gems release gfy from stack of x45 zfy	1			0	18	70	45		1	zfy							zfy,qty=44																													gfy																																																										0
-gems release gfy from stack of x44 zfy	1			0	18	70	44		1	zfy							zfy,qty=43																													gfy																																																										0
-gems release gfy from stack of x43 zfy	1			0	18	70	43		1	zfy							zfy,qty=42																													gfy																																																										0
-gems release gfy from stack of x42 zfy	1			0	18	70	42		1	zfy							zfy,qty=41																													gfy																																																										0
-gems release gfy from stack of x41 zfy	1			0	18	70	41		1	zfy							zfy,qty=40																													gfy																																																										0
-gems release gfy from stack of x40 zfy	1			0	18	70	40		1	zfy							zfy,qty=39																													gfy																																																										0
-gems release gfy from stack of x39 zfy	1			0	18	70	39		1	zfy							zfy,qty=38																													gfy																																																										0
-gems release gfy from stack of x38 zfy	1			0	18	70	38		1	zfy							zfy,qty=37																													gfy																																																										0
-gems release gfy from stack of x37 zfy	1			0	18	70	37		1	zfy							zfy,qty=36																													gfy																																																										0
 gems release gfy from stack of x36 zfy	1			0	18	70	36		1	zfy							zfy,qty=35																													gfy																																																										0
 gems release gfy from stack of x35 zfy	1			0	18	70	35		1	zfy							zfy,qty=34																													gfy																																																										0
 gems release gfy from stack of x34 zfy	1			0	18	70	34		1	zfy							zfy,qty=33																													gfy																																																										0
@@ -506,18 +425,6 @@ gems release gfy from stack of x3 zfy	1			0	18	70	3		1	zfy							zfy,qty=2						
 gems release gfy from stack of x2 zfy	1			0	18	70	2		1	zfy							zfy,qty=1																													gfy																																																										0
 gems gsy -> stackable zsy	1			0					1	gsy							zsy																																																																																							0
 gems stackable zsy -> gsy	1			0	18	70	1		1	zsy							gsy																																																																																							0
-gems release gsy from stack of x48 zsy	1			0	18	70	48		1	zsy							zsy,qty=47																													gsy																																																										0
-gems release gsy from stack of x47 zsy	1			0	18	70	47		1	zsy							zsy,qty=46																													gsy																																																										0
-gems release gsy from stack of x46 zsy	1			0	18	70	46		1	zsy							zsy,qty=45																													gsy																																																										0
-gems release gsy from stack of x45 zsy	1			0	18	70	45		1	zsy							zsy,qty=44																													gsy																																																										0
-gems release gsy from stack of x44 zsy	1			0	18	70	44		1	zsy							zsy,qty=43																													gsy																																																										0
-gems release gsy from stack of x43 zsy	1			0	18	70	43		1	zsy							zsy,qty=42																													gsy																																																										0
-gems release gsy from stack of x42 zsy	1			0	18	70	42		1	zsy							zsy,qty=41																													gsy																																																										0
-gems release gsy from stack of x41 zsy	1			0	18	70	41		1	zsy							zsy,qty=40																													gsy																																																										0
-gems release gsy from stack of x40 zsy	1			0	18	70	40		1	zsy							zsy,qty=39																													gsy																																																										0
-gems release gsy from stack of x39 zsy	1			0	18	70	39		1	zsy							zsy,qty=38																													gsy																																																										0
-gems release gsy from stack of x38 zsy	1			0	18	70	38		1	zsy							zsy,qty=37																													gsy																																																										0
-gems release gsy from stack of x37 zsy	1			0	18	70	37		1	zsy							zsy,qty=36																													gsy																																																										0
 gems release gsy from stack of x36 zsy	1			0	18	70	36		1	zsy							zsy,qty=35																													gsy																																																										0
 gems release gsy from stack of x35 zsy	1			0	18	70	35		1	zsy							zsy,qty=34																													gsy																																																										0
 gems release gsy from stack of x34 zsy	1			0	18	70	34		1	zsy							zsy,qty=33																													gsy																																																										0
@@ -555,18 +462,6 @@ gems release gsy from stack of x3 zsy	1			0	18	70	3		1	zsy							zsy,qty=2						
 gems release gsy from stack of x2 zsy	1			0	18	70	2		1	zsy							zsy,qty=1																													gsy																																																										0
 gems gly -> stackable zly	1			0					1	gly							zly																																																																																							0
 gems stackable zly -> gly	1			0	18	70	1		1	zly							gly																																																																																							0
-gems release gly from stack of x48 zly	1			0	18	70	48		1	zly							zly,qty=47																													gly																																																										0
-gems release gly from stack of x47 zly	1			0	18	70	47		1	zly							zly,qty=46																													gly																																																										0
-gems release gly from stack of x46 zly	1			0	18	70	46		1	zly							zly,qty=45																													gly																																																										0
-gems release gly from stack of x45 zly	1			0	18	70	45		1	zly							zly,qty=44																													gly																																																										0
-gems release gly from stack of x44 zly	1			0	18	70	44		1	zly							zly,qty=43																													gly																																																										0
-gems release gly from stack of x43 zly	1			0	18	70	43		1	zly							zly,qty=42																													gly																																																										0
-gems release gly from stack of x42 zly	1			0	18	70	42		1	zly							zly,qty=41																													gly																																																										0
-gems release gly from stack of x41 zly	1			0	18	70	41		1	zly							zly,qty=40																													gly																																																										0
-gems release gly from stack of x40 zly	1			0	18	70	40		1	zly							zly,qty=39																													gly																																																										0
-gems release gly from stack of x39 zly	1			0	18	70	39		1	zly							zly,qty=38																													gly																																																										0
-gems release gly from stack of x38 zly	1			0	18	70	38		1	zly							zly,qty=37																													gly																																																										0
-gems release gly from stack of x37 zly	1			0	18	70	37		1	zly							zly,qty=36																													gly																																																										0
 gems release gly from stack of x36 zly	1			0	18	70	36		1	zly							zly,qty=35																													gly																																																										0
 gems release gly from stack of x35 zly	1			0	18	70	35		1	zly							zly,qty=34																													gly																																																										0
 gems release gly from stack of x34 zly	1			0	18	70	34		1	zly							zly,qty=33																													gly																																																										0
@@ -604,18 +499,6 @@ gems release gly from stack of x3 zly	1			0	18	70	3		1	zly							zly,qty=2						
 gems release gly from stack of x2 zly	1			0	18	70	2		1	zly							zly,qty=1																													gly																																																										0
 gems gpy -> stackable zpy	1			0					1	gpy							zpy																																																																																							0
 gems stackable zpy -> gpy	1			0	18	70	1		1	zpy							gpy																																																																																							0
-gems release gpy from stack of x48 zpy	1			0	18	70	48		1	zpy							zpy,qty=47																													gpy																																																										0
-gems release gpy from stack of x47 zpy	1			0	18	70	47		1	zpy							zpy,qty=46																													gpy																																																										0
-gems release gpy from stack of x46 zpy	1			0	18	70	46		1	zpy							zpy,qty=45																													gpy																																																										0
-gems release gpy from stack of x45 zpy	1			0	18	70	45		1	zpy							zpy,qty=44																													gpy																																																										0
-gems release gpy from stack of x44 zpy	1			0	18	70	44		1	zpy							zpy,qty=43																													gpy																																																										0
-gems release gpy from stack of x43 zpy	1			0	18	70	43		1	zpy							zpy,qty=42																													gpy																																																										0
-gems release gpy from stack of x42 zpy	1			0	18	70	42		1	zpy							zpy,qty=41																													gpy																																																										0
-gems release gpy from stack of x41 zpy	1			0	18	70	41		1	zpy							zpy,qty=40																													gpy																																																										0
-gems release gpy from stack of x40 zpy	1			0	18	70	40		1	zpy							zpy,qty=39																													gpy																																																										0
-gems release gpy from stack of x39 zpy	1			0	18	70	39		1	zpy							zpy,qty=38																													gpy																																																										0
-gems release gpy from stack of x38 zpy	1			0	18	70	38		1	zpy							zpy,qty=37																													gpy																																																										0
-gems release gpy from stack of x37 zpy	1			0	18	70	37		1	zpy							zpy,qty=36																													gpy																																																										0
 gems release gpy from stack of x36 zpy	1			0	18	70	36		1	zpy							zpy,qty=35																													gpy																																																										0
 gems release gpy from stack of x35 zpy	1			0	18	70	35		1	zpy							zpy,qty=34																													gpy																																																										0
 gems release gpy from stack of x34 zpy	1			0	18	70	34		1	zpy							zpy,qty=33																													gpy																																																										0
@@ -653,18 +536,6 @@ gems release gpy from stack of x3 zpy	1			0	18	70	3		1	zpy							zpy,qty=2						
 gems release gpy from stack of x2 zpy	1			0	18	70	2		1	zpy							zpy,qty=1																													gpy																																																										0
 gems gcb -> stackable zcb	1			0					1	gcb							zcb																																																																																							0
 gems stackable zcb -> gcb	1			0	18	70	1		1	zcb							gcb																																																																																							0
-gems release gcb from stack of x48 zcb	1			0	18	70	48		1	zcb							zcb,qty=47																													gcb																																																										0
-gems release gcb from stack of x47 zcb	1			0	18	70	47		1	zcb							zcb,qty=46																													gcb																																																										0
-gems release gcb from stack of x46 zcb	1			0	18	70	46		1	zcb							zcb,qty=45																													gcb																																																										0
-gems release gcb from stack of x45 zcb	1			0	18	70	45		1	zcb							zcb,qty=44																													gcb																																																										0
-gems release gcb from stack of x44 zcb	1			0	18	70	44		1	zcb							zcb,qty=43																													gcb																																																										0
-gems release gcb from stack of x43 zcb	1			0	18	70	43		1	zcb							zcb,qty=42																													gcb																																																										0
-gems release gcb from stack of x42 zcb	1			0	18	70	42		1	zcb							zcb,qty=41																													gcb																																																										0
-gems release gcb from stack of x41 zcb	1			0	18	70	41		1	zcb							zcb,qty=40																													gcb																																																										0
-gems release gcb from stack of x40 zcb	1			0	18	70	40		1	zcb							zcb,qty=39																													gcb																																																										0
-gems release gcb from stack of x39 zcb	1			0	18	70	39		1	zcb							zcb,qty=38																													gcb																																																										0
-gems release gcb from stack of x38 zcb	1			0	18	70	38		1	zcb							zcb,qty=37																													gcb																																																										0
-gems release gcb from stack of x37 zcb	1			0	18	70	37		1	zcb							zcb,qty=36																													gcb																																																										0
 gems release gcb from stack of x36 zcb	1			0	18	70	36		1	zcb							zcb,qty=35																													gcb																																																										0
 gems release gcb from stack of x35 zcb	1			0	18	70	35		1	zcb							zcb,qty=34																													gcb																																																										0
 gems release gcb from stack of x34 zcb	1			0	18	70	34		1	zcb							zcb,qty=33																													gcb																																																										0
@@ -702,18 +573,6 @@ gems release gcb from stack of x3 zcb	1			0	18	70	3		1	zcb							zcb,qty=2						
 gems release gcb from stack of x2 zcb	1			0	18	70	2		1	zcb							zcb,qty=1																													gcb																																																										0
 gems gfb -> stackable zfb	1			0					1	gfb							zfb																																																																																							0
 gems stackable zfb -> gfb	1			0	18	70	1		1	zfb							gfb																																																																																							0
-gems release gfb from stack of x48 zfb	1			0	18	70	48		1	zfb							zfb,qty=47																													gfb																																																										0
-gems release gfb from stack of x47 zfb	1			0	18	70	47		1	zfb							zfb,qty=46																													gfb																																																										0
-gems release gfb from stack of x46 zfb	1			0	18	70	46		1	zfb							zfb,qty=45																													gfb																																																										0
-gems release gfb from stack of x45 zfb	1			0	18	70	45		1	zfb							zfb,qty=44																													gfb																																																										0
-gems release gfb from stack of x44 zfb	1			0	18	70	44		1	zfb							zfb,qty=43																													gfb																																																										0
-gems release gfb from stack of x43 zfb	1			0	18	70	43		1	zfb							zfb,qty=42																													gfb																																																										0
-gems release gfb from stack of x42 zfb	1			0	18	70	42		1	zfb							zfb,qty=41																													gfb																																																										0
-gems release gfb from stack of x41 zfb	1			0	18	70	41		1	zfb							zfb,qty=40																													gfb																																																										0
-gems release gfb from stack of x40 zfb	1			0	18	70	40		1	zfb							zfb,qty=39																													gfb																																																										0
-gems release gfb from stack of x39 zfb	1			0	18	70	39		1	zfb							zfb,qty=38																													gfb																																																										0
-gems release gfb from stack of x38 zfb	1			0	18	70	38		1	zfb							zfb,qty=37																													gfb																																																										0
-gems release gfb from stack of x37 zfb	1			0	18	70	37		1	zfb							zfb,qty=36																													gfb																																																										0
 gems release gfb from stack of x36 zfb	1			0	18	70	36		1	zfb							zfb,qty=35																													gfb																																																										0
 gems release gfb from stack of x35 zfb	1			0	18	70	35		1	zfb							zfb,qty=34																													gfb																																																										0
 gems release gfb from stack of x34 zfb	1			0	18	70	34		1	zfb							zfb,qty=33																													gfb																																																										0
@@ -751,18 +610,6 @@ gems release gfb from stack of x3 zfb	1			0	18	70	3		1	zfb							zfb,qty=2						
 gems release gfb from stack of x2 zfb	1			0	18	70	2		1	zfb							zfb,qty=1																													gfb																																																										0
 gems gsb -> stackable zsb	1			0					1	gsb							zsb																																																																																							0
 gems stackable zsb -> gsb	1			0	18	70	1		1	zsb							gsb																																																																																							0
-gems release gsb from stack of x48 zsb	1			0	18	70	48		1	zsb							zsb,qty=47																													gsb																																																										0
-gems release gsb from stack of x47 zsb	1			0	18	70	47		1	zsb							zsb,qty=46																													gsb																																																										0
-gems release gsb from stack of x46 zsb	1			0	18	70	46		1	zsb							zsb,qty=45																													gsb																																																										0
-gems release gsb from stack of x45 zsb	1			0	18	70	45		1	zsb							zsb,qty=44																													gsb																																																										0
-gems release gsb from stack of x44 zsb	1			0	18	70	44		1	zsb							zsb,qty=43																													gsb																																																										0
-gems release gsb from stack of x43 zsb	1			0	18	70	43		1	zsb							zsb,qty=42																													gsb																																																										0
-gems release gsb from stack of x42 zsb	1			0	18	70	42		1	zsb							zsb,qty=41																													gsb																																																										0
-gems release gsb from stack of x41 zsb	1			0	18	70	41		1	zsb							zsb,qty=40																													gsb																																																										0
-gems release gsb from stack of x40 zsb	1			0	18	70	40		1	zsb							zsb,qty=39																													gsb																																																										0
-gems release gsb from stack of x39 zsb	1			0	18	70	39		1	zsb							zsb,qty=38																													gsb																																																										0
-gems release gsb from stack of x38 zsb	1			0	18	70	38		1	zsb							zsb,qty=37																													gsb																																																										0
-gems release gsb from stack of x37 zsb	1			0	18	70	37		1	zsb							zsb,qty=36																													gsb																																																										0
 gems release gsb from stack of x36 zsb	1			0	18	70	36		1	zsb							zsb,qty=35																													gsb																																																										0
 gems release gsb from stack of x35 zsb	1			0	18	70	35		1	zsb							zsb,qty=34																													gsb																																																										0
 gems release gsb from stack of x34 zsb	1			0	18	70	34		1	zsb							zsb,qty=33																													gsb																																																										0
@@ -800,18 +647,6 @@ gems release gsb from stack of x3 zsb	1			0	18	70	3		1	zsb							zsb,qty=2						
 gems release gsb from stack of x2 zsb	1			0	18	70	2		1	zsb							zsb,qty=1																													gsb																																																										0
 gems glb -> stackable qlb	1			0					1	glb							qlb																																																																																							0
 gems stackable qlb -> glb	1			0	18	70	1		1	qlb							glb																																																																																							0
-gems release glb from stack of x48 qlb	1			0	18	70	48		1	qlb							qlb,qty=47																													glb																																																										0
-gems release glb from stack of x47 qlb	1			0	18	70	47		1	qlb							qlb,qty=46																													glb																																																										0
-gems release glb from stack of x46 qlb	1			0	18	70	46		1	qlb							qlb,qty=45																													glb																																																										0
-gems release glb from stack of x45 qlb	1			0	18	70	45		1	qlb							qlb,qty=44																													glb																																																										0
-gems release glb from stack of x44 qlb	1			0	18	70	44		1	qlb							qlb,qty=43																													glb																																																										0
-gems release glb from stack of x43 qlb	1			0	18	70	43		1	qlb							qlb,qty=42																													glb																																																										0
-gems release glb from stack of x42 qlb	1			0	18	70	42		1	qlb							qlb,qty=41																													glb																																																										0
-gems release glb from stack of x41 qlb	1			0	18	70	41		1	qlb							qlb,qty=40																													glb																																																										0
-gems release glb from stack of x40 qlb	1			0	18	70	40		1	qlb							qlb,qty=39																													glb																																																										0
-gems release glb from stack of x39 qlb	1			0	18	70	39		1	qlb							qlb,qty=38																													glb																																																										0
-gems release glb from stack of x38 qlb	1			0	18	70	38		1	qlb							qlb,qty=37																													glb																																																										0
-gems release glb from stack of x37 qlb	1			0	18	70	37		1	qlb							qlb,qty=36																													glb																																																										0
 gems release glb from stack of x36 qlb	1			0	18	70	36		1	qlb							qlb,qty=35																													glb																																																										0
 gems release glb from stack of x35 qlb	1			0	18	70	35		1	qlb							qlb,qty=34																													glb																																																										0
 gems release glb from stack of x34 qlb	1			0	18	70	34		1	qlb							qlb,qty=33																													glb																																																										0
@@ -849,18 +684,6 @@ gems release glb from stack of x3 qlb	1			0	18	70	3		1	qlb							qlb,qty=2						
 gems release glb from stack of x2 qlb	1			0	18	70	2		1	qlb							qlb,qty=1																													glb																																																										0
 gems gpb -> stackable zpb	1			0					1	gpb							zpb																																																																																							0
 gems stackable zpb -> gpb	1			0	18	70	1		1	zpb							gpb																																																																																							0
-gems release gpb from stack of x48 zpb	1			0	18	70	48		1	zpb							zpb,qty=47																													gpb																																																										0
-gems release gpb from stack of x47 zpb	1			0	18	70	47		1	zpb							zpb,qty=46																													gpb																																																										0
-gems release gpb from stack of x46 zpb	1			0	18	70	46		1	zpb							zpb,qty=45																													gpb																																																										0
-gems release gpb from stack of x45 zpb	1			0	18	70	45		1	zpb							zpb,qty=44																													gpb																																																										0
-gems release gpb from stack of x44 zpb	1			0	18	70	44		1	zpb							zpb,qty=43																													gpb																																																										0
-gems release gpb from stack of x43 zpb	1			0	18	70	43		1	zpb							zpb,qty=42																													gpb																																																										0
-gems release gpb from stack of x42 zpb	1			0	18	70	42		1	zpb							zpb,qty=41																													gpb																																																										0
-gems release gpb from stack of x41 zpb	1			0	18	70	41		1	zpb							zpb,qty=40																													gpb																																																										0
-gems release gpb from stack of x40 zpb	1			0	18	70	40		1	zpb							zpb,qty=39																													gpb																																																										0
-gems release gpb from stack of x39 zpb	1			0	18	70	39		1	zpb							zpb,qty=38																													gpb																																																										0
-gems release gpb from stack of x38 zpb	1			0	18	70	38		1	zpb							zpb,qty=37																													gpb																																																										0
-gems release gpb from stack of x37 zpb	1			0	18	70	37		1	zpb							zpb,qty=36																													gpb																																																										0
 gems release gpb from stack of x36 zpb	1			0	18	70	36		1	zpb							zpb,qty=35																													gpb																																																										0
 gems release gpb from stack of x35 zpb	1			0	18	70	35		1	zpb							zpb,qty=34																													gpb																																																										0
 gems release gpb from stack of x34 zpb	1			0	18	70	34		1	zpb							zpb,qty=33																													gpb																																																										0
@@ -898,18 +721,6 @@ gems release gpb from stack of x3 zpb	1			0	18	70	3		1	zpb							zpb,qty=2						
 gems release gpb from stack of x2 zpb	1			0	18	70	2		1	zpb							zpb,qty=1																													gpb																																																										0
 gems gcg -> stackable zcg	1			0					1	gcg							zcg																																																																																							0
 gems stackable zcg -> gcg	1			0	18	70	1		1	zcg							gcg																																																																																							0
-gems release gcg from stack of x48 zcg	1			0	18	70	48		1	zcg							zcg,qty=47																													gcg																																																										0
-gems release gcg from stack of x47 zcg	1			0	18	70	47		1	zcg							zcg,qty=46																													gcg																																																										0
-gems release gcg from stack of x46 zcg	1			0	18	70	46		1	zcg							zcg,qty=45																													gcg																																																										0
-gems release gcg from stack of x45 zcg	1			0	18	70	45		1	zcg							zcg,qty=44																													gcg																																																										0
-gems release gcg from stack of x44 zcg	1			0	18	70	44		1	zcg							zcg,qty=43																													gcg																																																										0
-gems release gcg from stack of x43 zcg	1			0	18	70	43		1	zcg							zcg,qty=42																													gcg																																																										0
-gems release gcg from stack of x42 zcg	1			0	18	70	42		1	zcg							zcg,qty=41																													gcg																																																										0
-gems release gcg from stack of x41 zcg	1			0	18	70	41		1	zcg							zcg,qty=40																													gcg																																																										0
-gems release gcg from stack of x40 zcg	1			0	18	70	40		1	zcg							zcg,qty=39																													gcg																																																										0
-gems release gcg from stack of x39 zcg	1			0	18	70	39		1	zcg							zcg,qty=38																													gcg																																																										0
-gems release gcg from stack of x38 zcg	1			0	18	70	38		1	zcg							zcg,qty=37																													gcg																																																										0
-gems release gcg from stack of x37 zcg	1			0	18	70	37		1	zcg							zcg,qty=36																													gcg																																																										0
 gems release gcg from stack of x36 zcg	1			0	18	70	36		1	zcg							zcg,qty=35																													gcg																																																										0
 gems release gcg from stack of x35 zcg	1			0	18	70	35		1	zcg							zcg,qty=34																													gcg																																																										0
 gems release gcg from stack of x34 zcg	1			0	18	70	34		1	zcg							zcg,qty=33																													gcg																																																										0
@@ -947,18 +758,6 @@ gems release gcg from stack of x3 zcg	1			0	18	70	3		1	zcg							zcg,qty=2						
 gems release gcg from stack of x2 zcg	1			0	18	70	2		1	zcg							zcg,qty=1																													gcg																																																										0
 gems gfg -> stackable zfg	1			0					1	gfg							zfg																																																																																							0
 gems stackable zfg -> gfg	1			0	18	70	1		1	zfg							gfg																																																																																							0
-gems release gfg from stack of x48 zfg	1			0	18	70	48		1	zfg							zfg,qty=47																													gfg																																																										0
-gems release gfg from stack of x47 zfg	1			0	18	70	47		1	zfg							zfg,qty=46																													gfg																																																										0
-gems release gfg from stack of x46 zfg	1			0	18	70	46		1	zfg							zfg,qty=45																													gfg																																																										0
-gems release gfg from stack of x45 zfg	1			0	18	70	45		1	zfg							zfg,qty=44																													gfg																																																										0
-gems release gfg from stack of x44 zfg	1			0	18	70	44		1	zfg							zfg,qty=43																													gfg																																																										0
-gems release gfg from stack of x43 zfg	1			0	18	70	43		1	zfg							zfg,qty=42																													gfg																																																										0
-gems release gfg from stack of x42 zfg	1			0	18	70	42		1	zfg							zfg,qty=41																													gfg																																																										0
-gems release gfg from stack of x41 zfg	1			0	18	70	41		1	zfg							zfg,qty=40																													gfg																																																										0
-gems release gfg from stack of x40 zfg	1			0	18	70	40		1	zfg							zfg,qty=39																													gfg																																																										0
-gems release gfg from stack of x39 zfg	1			0	18	70	39		1	zfg							zfg,qty=38																													gfg																																																										0
-gems release gfg from stack of x38 zfg	1			0	18	70	38		1	zfg							zfg,qty=37																													gfg																																																										0
-gems release gfg from stack of x37 zfg	1			0	18	70	37		1	zfg							zfg,qty=36																													gfg																																																										0
 gems release gfg from stack of x36 zfg	1			0	18	70	36		1	zfg							zfg,qty=35																													gfg																																																										0
 gems release gfg from stack of x35 zfg	1			0	18	70	35		1	zfg							zfg,qty=34																													gfg																																																										0
 gems release gfg from stack of x34 zfg	1			0	18	70	34		1	zfg							zfg,qty=33																													gfg																																																										0
@@ -996,18 +795,6 @@ gems release gfg from stack of x3 zfg	1			0	18	70	3		1	zfg							zfg,qty=2						
 gems release gfg from stack of x2 zfg	1			0	18	70	2		1	zfg							zfg,qty=1																													gfg																																																										0
 gems gsg -> stackable zsg	1			0					1	gsg							zsg																																																																																							0
 gems stackable zsg -> gsg	1			0	18	70	1		1	zsg							gsg																																																																																							0
-gems release gsg from stack of x48 zsg	1			0	18	70	48		1	zsg							zsg,qty=47																													gsg																																																										0
-gems release gsg from stack of x47 zsg	1			0	18	70	47		1	zsg							zsg,qty=46																													gsg																																																										0
-gems release gsg from stack of x46 zsg	1			0	18	70	46		1	zsg							zsg,qty=45																													gsg																																																										0
-gems release gsg from stack of x45 zsg	1			0	18	70	45		1	zsg							zsg,qty=44																													gsg																																																										0
-gems release gsg from stack of x44 zsg	1			0	18	70	44		1	zsg							zsg,qty=43																													gsg																																																										0
-gems release gsg from stack of x43 zsg	1			0	18	70	43		1	zsg							zsg,qty=42																													gsg																																																										0
-gems release gsg from stack of x42 zsg	1			0	18	70	42		1	zsg							zsg,qty=41																													gsg																																																										0
-gems release gsg from stack of x41 zsg	1			0	18	70	41		1	zsg							zsg,qty=40																													gsg																																																										0
-gems release gsg from stack of x40 zsg	1			0	18	70	40		1	zsg							zsg,qty=39																													gsg																																																										0
-gems release gsg from stack of x39 zsg	1			0	18	70	39		1	zsg							zsg,qty=38																													gsg																																																										0
-gems release gsg from stack of x38 zsg	1			0	18	70	38		1	zsg							zsg,qty=37																													gsg																																																										0
-gems release gsg from stack of x37 zsg	1			0	18	70	37		1	zsg							zsg,qty=36																													gsg																																																										0
 gems release gsg from stack of x36 zsg	1			0	18	70	36		1	zsg							zsg,qty=35																													gsg																																																										0
 gems release gsg from stack of x35 zsg	1			0	18	70	35		1	zsg							zsg,qty=34																													gsg																																																										0
 gems release gsg from stack of x34 zsg	1			0	18	70	34		1	zsg							zsg,qty=33																													gsg																																																										0
@@ -1045,18 +832,6 @@ gems release gsg from stack of x3 zsg	1			0	18	70	3		1	zsg							zsg,qty=2						
 gems release gsg from stack of x2 zsg	1			0	18	70	2		1	zsg							zsg,qty=1																													gsg																																																										0
 gems glg -> stackable zlg	1			0					1	glg							zlg																																																																																							0
 gems stackable zlg -> glg	1			0	18	70	1		1	zlg							glg																																																																																							0
-gems release glg from stack of x48 zlg	1			0	18	70	48		1	zlg							zlg,qty=47																													glg																																																										0
-gems release glg from stack of x47 zlg	1			0	18	70	47		1	zlg							zlg,qty=46																													glg																																																										0
-gems release glg from stack of x46 zlg	1			0	18	70	46		1	zlg							zlg,qty=45																													glg																																																										0
-gems release glg from stack of x45 zlg	1			0	18	70	45		1	zlg							zlg,qty=44																													glg																																																										0
-gems release glg from stack of x44 zlg	1			0	18	70	44		1	zlg							zlg,qty=43																													glg																																																										0
-gems release glg from stack of x43 zlg	1			0	18	70	43		1	zlg							zlg,qty=42																													glg																																																										0
-gems release glg from stack of x42 zlg	1			0	18	70	42		1	zlg							zlg,qty=41																													glg																																																										0
-gems release glg from stack of x41 zlg	1			0	18	70	41		1	zlg							zlg,qty=40																													glg																																																										0
-gems release glg from stack of x40 zlg	1			0	18	70	40		1	zlg							zlg,qty=39																													glg																																																										0
-gems release glg from stack of x39 zlg	1			0	18	70	39		1	zlg							zlg,qty=38																													glg																																																										0
-gems release glg from stack of x38 zlg	1			0	18	70	38		1	zlg							zlg,qty=37																													glg																																																										0
-gems release glg from stack of x37 zlg	1			0	18	70	37		1	zlg							zlg,qty=36																													glg																																																										0
 gems release glg from stack of x36 zlg	1			0	18	70	36		1	zlg							zlg,qty=35																													glg																																																										0
 gems release glg from stack of x35 zlg	1			0	18	70	35		1	zlg							zlg,qty=34																													glg																																																										0
 gems release glg from stack of x34 zlg	1			0	18	70	34		1	zlg							zlg,qty=33																													glg																																																										0
@@ -1094,18 +869,6 @@ gems release glg from stack of x3 zlg	1			0	18	70	3		1	zlg							zlg,qty=2						
 gems release glg from stack of x2 zlg	1			0	18	70	2		1	zlg							zlg,qty=1																													glg																																																										0
 gems gpg -> stackable zpg	1			0					1	gpg							zpg																																																																																							0
 gems stackable zpg -> gpg	1			0	18	70	1		1	zpg							gpg																																																																																							0
-gems release gpg from stack of x48 zpg	1			0	18	70	48		1	zpg							zpg,qty=47																													gpg																																																										0
-gems release gpg from stack of x47 zpg	1			0	18	70	47		1	zpg							zpg,qty=46																													gpg																																																										0
-gems release gpg from stack of x46 zpg	1			0	18	70	46		1	zpg							zpg,qty=45																													gpg																																																										0
-gems release gpg from stack of x45 zpg	1			0	18	70	45		1	zpg							zpg,qty=44																													gpg																																																										0
-gems release gpg from stack of x44 zpg	1			0	18	70	44		1	zpg							zpg,qty=43																													gpg																																																										0
-gems release gpg from stack of x43 zpg	1			0	18	70	43		1	zpg							zpg,qty=42																													gpg																																																										0
-gems release gpg from stack of x42 zpg	1			0	18	70	42		1	zpg							zpg,qty=41																													gpg																																																										0
-gems release gpg from stack of x41 zpg	1			0	18	70	41		1	zpg							zpg,qty=40																													gpg																																																										0
-gems release gpg from stack of x40 zpg	1			0	18	70	40		1	zpg							zpg,qty=39																													gpg																																																										0
-gems release gpg from stack of x39 zpg	1			0	18	70	39		1	zpg							zpg,qty=38																													gpg																																																										0
-gems release gpg from stack of x38 zpg	1			0	18	70	38		1	zpg							zpg,qty=37																													gpg																																																										0
-gems release gpg from stack of x37 zpg	1			0	18	70	37		1	zpg							zpg,qty=36																													gpg																																																										0
 gems release gpg from stack of x36 zpg	1			0	18	70	36		1	zpg							zpg,qty=35																													gpg																																																										0
 gems release gpg from stack of x35 zpg	1			0	18	70	35		1	zpg							zpg,qty=34																													gpg																																																										0
 gems release gpg from stack of x34 zpg	1			0	18	70	34		1	zpg							zpg,qty=33																													gpg																																																										0
@@ -1143,18 +906,6 @@ gems release gpg from stack of x3 zpg	1			0	18	70	3		1	zpg							zpg,qty=2						
 gems release gpg from stack of x2 zpg	1			0	18	70	2		1	zpg							zpg,qty=1																													gpg																																																										0
 gems gcr -> stackable zcr	1			0					1	gcr							zcr																																																																																							0
 gems stackable zcr -> gcr	1			0	18	70	1		1	zcr							gcr																																																																																							0
-gems release gcr from stack of x48 zcr	1			0	18	70	48		1	zcr							zcr,qty=47																													gcr																																																										0
-gems release gcr from stack of x47 zcr	1			0	18	70	47		1	zcr							zcr,qty=46																													gcr																																																										0
-gems release gcr from stack of x46 zcr	1			0	18	70	46		1	zcr							zcr,qty=45																													gcr																																																										0
-gems release gcr from stack of x45 zcr	1			0	18	70	45		1	zcr							zcr,qty=44																													gcr																																																										0
-gems release gcr from stack of x44 zcr	1			0	18	70	44		1	zcr							zcr,qty=43																													gcr																																																										0
-gems release gcr from stack of x43 zcr	1			0	18	70	43		1	zcr							zcr,qty=42																													gcr																																																										0
-gems release gcr from stack of x42 zcr	1			0	18	70	42		1	zcr							zcr,qty=41																													gcr																																																										0
-gems release gcr from stack of x41 zcr	1			0	18	70	41		1	zcr							zcr,qty=40																													gcr																																																										0
-gems release gcr from stack of x40 zcr	1			0	18	70	40		1	zcr							zcr,qty=39																													gcr																																																										0
-gems release gcr from stack of x39 zcr	1			0	18	70	39		1	zcr							zcr,qty=38																													gcr																																																										0
-gems release gcr from stack of x38 zcr	1			0	18	70	38		1	zcr							zcr,qty=37																													gcr																																																										0
-gems release gcr from stack of x37 zcr	1			0	18	70	37		1	zcr							zcr,qty=36																													gcr																																																										0
 gems release gcr from stack of x36 zcr	1			0	18	70	36		1	zcr							zcr,qty=35																													gcr																																																										0
 gems release gcr from stack of x35 zcr	1			0	18	70	35		1	zcr							zcr,qty=34																													gcr																																																										0
 gems release gcr from stack of x34 zcr	1			0	18	70	34		1	zcr							zcr,qty=33																													gcr																																																										0
@@ -1192,18 +943,6 @@ gems release gcr from stack of x3 zcr	1			0	18	70	3		1	zcr							zcr,qty=2						
 gems release gcr from stack of x2 zcr	1			0	18	70	2		1	zcr							zcr,qty=1																													gcr																																																										0
 gems gfr -> stackable zfr	1			0					1	gfr							zfr																																																																																							0
 gems stackable zfr -> gfr	1			0	18	70	1		1	zfr							gfr																																																																																							0
-gems release gfr from stack of x48 zfr	1			0	18	70	48		1	zfr							zfr,qty=47																													gfr																																																										0
-gems release gfr from stack of x47 zfr	1			0	18	70	47		1	zfr							zfr,qty=46																													gfr																																																										0
-gems release gfr from stack of x46 zfr	1			0	18	70	46		1	zfr							zfr,qty=45																													gfr																																																										0
-gems release gfr from stack of x45 zfr	1			0	18	70	45		1	zfr							zfr,qty=44																													gfr																																																										0
-gems release gfr from stack of x44 zfr	1			0	18	70	44		1	zfr							zfr,qty=43																													gfr																																																										0
-gems release gfr from stack of x43 zfr	1			0	18	70	43		1	zfr							zfr,qty=42																													gfr																																																										0
-gems release gfr from stack of x42 zfr	1			0	18	70	42		1	zfr							zfr,qty=41																													gfr																																																										0
-gems release gfr from stack of x41 zfr	1			0	18	70	41		1	zfr							zfr,qty=40																													gfr																																																										0
-gems release gfr from stack of x40 zfr	1			0	18	70	40		1	zfr							zfr,qty=39																													gfr																																																										0
-gems release gfr from stack of x39 zfr	1			0	18	70	39		1	zfr							zfr,qty=38																													gfr																																																										0
-gems release gfr from stack of x38 zfr	1			0	18	70	38		1	zfr							zfr,qty=37																													gfr																																																										0
-gems release gfr from stack of x37 zfr	1			0	18	70	37		1	zfr							zfr,qty=36																													gfr																																																										0
 gems release gfr from stack of x36 zfr	1			0	18	70	36		1	zfr							zfr,qty=35																													gfr																																																										0
 gems release gfr from stack of x35 zfr	1			0	18	70	35		1	zfr							zfr,qty=34																													gfr																																																										0
 gems release gfr from stack of x34 zfr	1			0	18	70	34		1	zfr							zfr,qty=33																													gfr																																																										0
@@ -1241,18 +980,6 @@ gems release gfr from stack of x3 zfr	1			0	18	70	3		1	zfr							zfr,qty=2						
 gems release gfr from stack of x2 zfr	1			0	18	70	2		1	zfr							zfr,qty=1																													gfr																																																										0
 gems gsr -> stackable zsr	1			0					1	gsr							zsr																																																																																							0
 gems stackable zsr -> gsr	1			0	18	70	1		1	zsr							gsr																																																																																							0
-gems release gsr from stack of x48 zsr	1			0	18	70	48		1	zsr							zsr,qty=47																													gsr																																																										0
-gems release gsr from stack of x47 zsr	1			0	18	70	47		1	zsr							zsr,qty=46																													gsr																																																										0
-gems release gsr from stack of x46 zsr	1			0	18	70	46		1	zsr							zsr,qty=45																													gsr																																																										0
-gems release gsr from stack of x45 zsr	1			0	18	70	45		1	zsr							zsr,qty=44																													gsr																																																										0
-gems release gsr from stack of x44 zsr	1			0	18	70	44		1	zsr							zsr,qty=43																													gsr																																																										0
-gems release gsr from stack of x43 zsr	1			0	18	70	43		1	zsr							zsr,qty=42																													gsr																																																										0
-gems release gsr from stack of x42 zsr	1			0	18	70	42		1	zsr							zsr,qty=41																													gsr																																																										0
-gems release gsr from stack of x41 zsr	1			0	18	70	41		1	zsr							zsr,qty=40																													gsr																																																										0
-gems release gsr from stack of x40 zsr	1			0	18	70	40		1	zsr							zsr,qty=39																													gsr																																																										0
-gems release gsr from stack of x39 zsr	1			0	18	70	39		1	zsr							zsr,qty=38																													gsr																																																										0
-gems release gsr from stack of x38 zsr	1			0	18	70	38		1	zsr							zsr,qty=37																													gsr																																																										0
-gems release gsr from stack of x37 zsr	1			0	18	70	37		1	zsr							zsr,qty=36																													gsr																																																										0
 gems release gsr from stack of x36 zsr	1			0	18	70	36		1	zsr							zsr,qty=35																													gsr																																																										0
 gems release gsr from stack of x35 zsr	1			0	18	70	35		1	zsr							zsr,qty=34																													gsr																																																										0
 gems release gsr from stack of x34 zsr	1			0	18	70	34		1	zsr							zsr,qty=33																													gsr																																																										0
@@ -1290,18 +1017,6 @@ gems release gsr from stack of x3 zsr	1			0	18	70	3		1	zsr							zsr,qty=2						
 gems release gsr from stack of x2 zsr	1			0	18	70	2		1	zsr							zsr,qty=1																													gsr																																																										0
 gems glr -> stackable zlr	1			0					1	glr							zlr																																																																																							0
 gems stackable zlr -> glr	1			0	18	70	1		1	zlr							glr																																																																																							0
-gems release glr from stack of x48 zlr	1			0	18	70	48		1	zlr							zlr,qty=47																													glr																																																										0
-gems release glr from stack of x47 zlr	1			0	18	70	47		1	zlr							zlr,qty=46																													glr																																																										0
-gems release glr from stack of x46 zlr	1			0	18	70	46		1	zlr							zlr,qty=45																													glr																																																										0
-gems release glr from stack of x45 zlr	1			0	18	70	45		1	zlr							zlr,qty=44																													glr																																																										0
-gems release glr from stack of x44 zlr	1			0	18	70	44		1	zlr							zlr,qty=43																													glr																																																										0
-gems release glr from stack of x43 zlr	1			0	18	70	43		1	zlr							zlr,qty=42																													glr																																																										0
-gems release glr from stack of x42 zlr	1			0	18	70	42		1	zlr							zlr,qty=41																													glr																																																										0
-gems release glr from stack of x41 zlr	1			0	18	70	41		1	zlr							zlr,qty=40																													glr																																																										0
-gems release glr from stack of x40 zlr	1			0	18	70	40		1	zlr							zlr,qty=39																													glr																																																										0
-gems release glr from stack of x39 zlr	1			0	18	70	39		1	zlr							zlr,qty=38																													glr																																																										0
-gems release glr from stack of x38 zlr	1			0	18	70	38		1	zlr							zlr,qty=37																													glr																																																										0
-gems release glr from stack of x37 zlr	1			0	18	70	37		1	zlr							zlr,qty=36																													glr																																																										0
 gems release glr from stack of x36 zlr	1			0	18	70	36		1	zlr							zlr,qty=35																													glr																																																										0
 gems release glr from stack of x35 zlr	1			0	18	70	35		1	zlr							zlr,qty=34																													glr																																																										0
 gems release glr from stack of x34 zlr	1			0	18	70	34		1	zlr							zlr,qty=33																													glr																																																										0
@@ -1339,18 +1054,6 @@ gems release glr from stack of x3 zlr	1			0	18	70	3		1	zlr							zlr,qty=2						
 gems release glr from stack of x2 zlr	1			0	18	70	2		1	zlr							zlr,qty=1																													glr																																																										0
 gems gpr -> stackable zpr	1			0					1	gpr							zpr																																																																																							0
 gems stackable zpr -> gpr	1			0	18	70	1		1	zpr							gpr																																																																																							0
-gems release gpr from stack of x48 zpr	1			0	18	70	48		1	zpr							zpr,qty=47																													gpr																																																										0
-gems release gpr from stack of x47 zpr	1			0	18	70	47		1	zpr							zpr,qty=46																													gpr																																																										0
-gems release gpr from stack of x46 zpr	1			0	18	70	46		1	zpr							zpr,qty=45																													gpr																																																										0
-gems release gpr from stack of x45 zpr	1			0	18	70	45		1	zpr							zpr,qty=44																													gpr																																																										0
-gems release gpr from stack of x44 zpr	1			0	18	70	44		1	zpr							zpr,qty=43																													gpr																																																										0
-gems release gpr from stack of x43 zpr	1			0	18	70	43		1	zpr							zpr,qty=42																													gpr																																																										0
-gems release gpr from stack of x42 zpr	1			0	18	70	42		1	zpr							zpr,qty=41																													gpr																																																										0
-gems release gpr from stack of x41 zpr	1			0	18	70	41		1	zpr							zpr,qty=40																													gpr																																																										0
-gems release gpr from stack of x40 zpr	1			0	18	70	40		1	zpr							zpr,qty=39																													gpr																																																										0
-gems release gpr from stack of x39 zpr	1			0	18	70	39		1	zpr							zpr,qty=38																													gpr																																																										0
-gems release gpr from stack of x38 zpr	1			0	18	70	38		1	zpr							zpr,qty=37																													gpr																																																										0
-gems release gpr from stack of x37 zpr	1			0	18	70	37		1	zpr							zpr,qty=36																													gpr																																																										0
 gems release gpr from stack of x36 zpr	1			0	18	70	36		1	zpr							zpr,qty=35																													gpr																																																										0
 gems release gpr from stack of x35 zpr	1			0	18	70	35		1	zpr							zpr,qty=34																													gpr																																																										0
 gems release gpr from stack of x34 zpr	1			0	18	70	34		1	zpr							zpr,qty=33																													gpr																																																										0
@@ -1388,18 +1091,6 @@ gems release gpr from stack of x3 zpr	1			0	18	70	3		1	zpr							zpr,qty=2						
 gems release gpr from stack of x2 zpr	1			0	18	70	2		1	zpr							zpr,qty=1																													gpr																																																										0
 gems gcw -> stackable zcw	1			0					1	gcw							zcw																																																																																							0
 gems stackable zcw -> gcw	1			0	18	70	1		1	zcw							gcw																																																																																							0
-gems release gcw from stack of x48 zcw	1			0	18	70	48		1	zcw							zcw,qty=47																													gcw																																																										0
-gems release gcw from stack of x47 zcw	1			0	18	70	47		1	zcw							zcw,qty=46																													gcw																																																										0
-gems release gcw from stack of x46 zcw	1			0	18	70	46		1	zcw							zcw,qty=45																													gcw																																																										0
-gems release gcw from stack of x45 zcw	1			0	18	70	45		1	zcw							zcw,qty=44																													gcw																																																										0
-gems release gcw from stack of x44 zcw	1			0	18	70	44		1	zcw							zcw,qty=43																													gcw																																																										0
-gems release gcw from stack of x43 zcw	1			0	18	70	43		1	zcw							zcw,qty=42																													gcw																																																										0
-gems release gcw from stack of x42 zcw	1			0	18	70	42		1	zcw							zcw,qty=41																													gcw																																																										0
-gems release gcw from stack of x41 zcw	1			0	18	70	41		1	zcw							zcw,qty=40																													gcw																																																										0
-gems release gcw from stack of x40 zcw	1			0	18	70	40		1	zcw							zcw,qty=39																													gcw																																																										0
-gems release gcw from stack of x39 zcw	1			0	18	70	39		1	zcw							zcw,qty=38																													gcw																																																										0
-gems release gcw from stack of x38 zcw	1			0	18	70	38		1	zcw							zcw,qty=37																													gcw																																																										0
-gems release gcw from stack of x37 zcw	1			0	18	70	37		1	zcw							zcw,qty=36																													gcw																																																										0
 gems release gcw from stack of x36 zcw	1			0	18	70	36		1	zcw							zcw,qty=35																													gcw																																																										0
 gems release gcw from stack of x35 zcw	1			0	18	70	35		1	zcw							zcw,qty=34																													gcw																																																										0
 gems release gcw from stack of x34 zcw	1			0	18	70	34		1	zcw							zcw,qty=33																													gcw																																																										0
@@ -1437,18 +1128,6 @@ gems release gcw from stack of x3 zcw	1			0	18	70	3		1	zcw							zcw,qty=2						
 gems release gcw from stack of x2 zcw	1			0	18	70	2		1	zcw							zcw,qty=1																													gcw																																																										0
 gems gfw -> stackable zfw	1			0					1	gfw							zfw																																																																																							0
 gems stackable zfw -> gfw	1			0	18	70	1		1	zfw							gfw																																																																																							0
-gems release gfw from stack of x48 zfw	1			0	18	70	48		1	zfw							zfw,qty=47																													gfw																																																										0
-gems release gfw from stack of x47 zfw	1			0	18	70	47		1	zfw							zfw,qty=46																													gfw																																																										0
-gems release gfw from stack of x46 zfw	1			0	18	70	46		1	zfw							zfw,qty=45																													gfw																																																										0
-gems release gfw from stack of x45 zfw	1			0	18	70	45		1	zfw							zfw,qty=44																													gfw																																																										0
-gems release gfw from stack of x44 zfw	1			0	18	70	44		1	zfw							zfw,qty=43																													gfw																																																										0
-gems release gfw from stack of x43 zfw	1			0	18	70	43		1	zfw							zfw,qty=42																													gfw																																																										0
-gems release gfw from stack of x42 zfw	1			0	18	70	42		1	zfw							zfw,qty=41																													gfw																																																										0
-gems release gfw from stack of x41 zfw	1			0	18	70	41		1	zfw							zfw,qty=40																													gfw																																																										0
-gems release gfw from stack of x40 zfw	1			0	18	70	40		1	zfw							zfw,qty=39																													gfw																																																										0
-gems release gfw from stack of x39 zfw	1			0	18	70	39		1	zfw							zfw,qty=38																													gfw																																																										0
-gems release gfw from stack of x38 zfw	1			0	18	70	38		1	zfw							zfw,qty=37																													gfw																																																										0
-gems release gfw from stack of x37 zfw	1			0	18	70	37		1	zfw							zfw,qty=36																													gfw																																																										0
 gems release gfw from stack of x36 zfw	1			0	18	70	36		1	zfw							zfw,qty=35																													gfw																																																										0
 gems release gfw from stack of x35 zfw	1			0	18	70	35		1	zfw							zfw,qty=34																													gfw																																																										0
 gems release gfw from stack of x34 zfw	1			0	18	70	34		1	zfw							zfw,qty=33																													gfw																																																										0
@@ -1486,18 +1165,6 @@ gems release gfw from stack of x3 zfw	1			0	18	70	3		1	zfw							zfw,qty=2						
 gems release gfw from stack of x2 zfw	1			0	18	70	2		1	zfw							zfw,qty=1																													gfw																																																										0
 gems gsw -> stackable zsw	1			0					1	gsw							zsw																																																																																							0
 gems stackable zsw -> gsw	1			0	18	70	1		1	zsw							gsw																																																																																							0
-gems release gsw from stack of x48 zsw	1			0	18	70	48		1	zsw							zsw,qty=47																													gsw																																																										0
-gems release gsw from stack of x47 zsw	1			0	18	70	47		1	zsw							zsw,qty=46																													gsw																																																										0
-gems release gsw from stack of x46 zsw	1			0	18	70	46		1	zsw							zsw,qty=45																													gsw																																																										0
-gems release gsw from stack of x45 zsw	1			0	18	70	45		1	zsw							zsw,qty=44																													gsw																																																										0
-gems release gsw from stack of x44 zsw	1			0	18	70	44		1	zsw							zsw,qty=43																													gsw																																																										0
-gems release gsw from stack of x43 zsw	1			0	18	70	43		1	zsw							zsw,qty=42																													gsw																																																										0
-gems release gsw from stack of x42 zsw	1			0	18	70	42		1	zsw							zsw,qty=41																													gsw																																																										0
-gems release gsw from stack of x41 zsw	1			0	18	70	41		1	zsw							zsw,qty=40																													gsw																																																										0
-gems release gsw from stack of x40 zsw	1			0	18	70	40		1	zsw							zsw,qty=39																													gsw																																																										0
-gems release gsw from stack of x39 zsw	1			0	18	70	39		1	zsw							zsw,qty=38																													gsw																																																										0
-gems release gsw from stack of x38 zsw	1			0	18	70	38		1	zsw							zsw,qty=37																													gsw																																																										0
-gems release gsw from stack of x37 zsw	1			0	18	70	37		1	zsw							zsw,qty=36																													gsw																																																										0
 gems release gsw from stack of x36 zsw	1			0	18	70	36		1	zsw							zsw,qty=35																													gsw																																																										0
 gems release gsw from stack of x35 zsw	1			0	18	70	35		1	zsw							zsw,qty=34																													gsw																																																										0
 gems release gsw from stack of x34 zsw	1			0	18	70	34		1	zsw							zsw,qty=33																													gsw																																																										0
@@ -1535,18 +1202,6 @@ gems release gsw from stack of x3 zsw	1			0	18	70	3		1	zsw							zsw,qty=2						
 gems release gsw from stack of x2 zsw	1			0	18	70	2		1	zsw							zsw,qty=1																													gsw																																																										0
 gems glw -> stackable zlw	1			0					1	glw							zlw																																																																																							0
 gems stackable zlw -> glw	1			0	18	70	1		1	zlw							glw																																																																																							0
-gems release glw from stack of x48 zlw	1			0	18	70	48		1	zlw							zlw,qty=47																													glw																																																										0
-gems release glw from stack of x47 zlw	1			0	18	70	47		1	zlw							zlw,qty=46																													glw																																																										0
-gems release glw from stack of x46 zlw	1			0	18	70	46		1	zlw							zlw,qty=45																													glw																																																										0
-gems release glw from stack of x45 zlw	1			0	18	70	45		1	zlw							zlw,qty=44																													glw																																																										0
-gems release glw from stack of x44 zlw	1			0	18	70	44		1	zlw							zlw,qty=43																													glw																																																										0
-gems release glw from stack of x43 zlw	1			0	18	70	43		1	zlw							zlw,qty=42																													glw																																																										0
-gems release glw from stack of x42 zlw	1			0	18	70	42		1	zlw							zlw,qty=41																													glw																																																										0
-gems release glw from stack of x41 zlw	1			0	18	70	41		1	zlw							zlw,qty=40																													glw																																																										0
-gems release glw from stack of x40 zlw	1			0	18	70	40		1	zlw							zlw,qty=39																													glw																																																										0
-gems release glw from stack of x39 zlw	1			0	18	70	39		1	zlw							zlw,qty=38																													glw																																																										0
-gems release glw from stack of x38 zlw	1			0	18	70	38		1	zlw							zlw,qty=37																													glw																																																										0
-gems release glw from stack of x37 zlw	1			0	18	70	37		1	zlw							zlw,qty=36																													glw																																																										0
 gems release glw from stack of x36 zlw	1			0	18	70	36		1	zlw							zlw,qty=35																													glw																																																										0
 gems release glw from stack of x35 zlw	1			0	18	70	35		1	zlw							zlw,qty=34																													glw																																																										0
 gems release glw from stack of x34 zlw	1			0	18	70	34		1	zlw							zlw,qty=33																													glw																																																										0
@@ -1584,18 +1239,6 @@ gems release glw from stack of x3 zlw	1			0	18	70	3		1	zlw							zlw,qty=2						
 gems release glw from stack of x2 zlw	1			0	18	70	2		1	zlw							zlw,qty=1																													glw																																																										0
 gems gpw -> stackable zpw	1			0					1	gpw							zpw																																																																																							0
 gems stackable zpw -> gpw	1			0	18	70	1		1	zpw							gpw																																																																																							0
-gems release gpw from stack of x48 zpw	1			0	18	70	48		1	zpw							zpw,qty=47																													gpw																																																										0
-gems release gpw from stack of x47 zpw	1			0	18	70	47		1	zpw							zpw,qty=46																													gpw																																																										0
-gems release gpw from stack of x46 zpw	1			0	18	70	46		1	zpw							zpw,qty=45																													gpw																																																										0
-gems release gpw from stack of x45 zpw	1			0	18	70	45		1	zpw							zpw,qty=44																													gpw																																																										0
-gems release gpw from stack of x44 zpw	1			0	18	70	44		1	zpw							zpw,qty=43																													gpw																																																										0
-gems release gpw from stack of x43 zpw	1			0	18	70	43		1	zpw							zpw,qty=42																													gpw																																																										0
-gems release gpw from stack of x42 zpw	1			0	18	70	42		1	zpw							zpw,qty=41																													gpw																																																										0
-gems release gpw from stack of x41 zpw	1			0	18	70	41		1	zpw							zpw,qty=40																													gpw																																																										0
-gems release gpw from stack of x40 zpw	1			0	18	70	40		1	zpw							zpw,qty=39																													gpw																																																										0
-gems release gpw from stack of x39 zpw	1			0	18	70	39		1	zpw							zpw,qty=38																													gpw																																																										0
-gems release gpw from stack of x38 zpw	1			0	18	70	38		1	zpw							zpw,qty=37																													gpw																																																										0
-gems release gpw from stack of x37 zpw	1			0	18	70	37		1	zpw							zpw,qty=36																													gpw																																																										0
 gems release gpw from stack of x36 zpw	1			0	18	70	36		1	zpw							zpw,qty=35																													gpw																																																										0
 gems release gpw from stack of x35 zpw	1			0	18	70	35		1	zpw							zpw,qty=34																													gpw																																																										0
 gems release gpw from stack of x34 zpw	1			0	18	70	34		1	zpw							zpw,qty=33																													gpw																																																										0
@@ -1633,18 +1276,6 @@ gems release gpw from stack of x3 zpw	1			0	18	70	3		1	zpw							zpw,qty=2						
 gems release gpw from stack of x2 zpw	1			0	18	70	2		1	zpw							zpw,qty=1																													gpw																																																										0
 gems skc -> stackable zkc	1			0					1	skc							zkc																																																																																							0
 gems stackable zkc -> skc	1			0	18	70	1		1	zkc							skc																																																																																							0
-gems release skc from stack of x48 zkc	1			0	18	70	48		1	zkc							zkc,qty=47																													skc																																																										0
-gems release skc from stack of x47 zkc	1			0	18	70	47		1	zkc							zkc,qty=46																													skc																																																										0
-gems release skc from stack of x46 zkc	1			0	18	70	46		1	zkc							zkc,qty=45																													skc																																																										0
-gems release skc from stack of x45 zkc	1			0	18	70	45		1	zkc							zkc,qty=44																													skc																																																										0
-gems release skc from stack of x44 zkc	1			0	18	70	44		1	zkc							zkc,qty=43																													skc																																																										0
-gems release skc from stack of x43 zkc	1			0	18	70	43		1	zkc							zkc,qty=42																													skc																																																										0
-gems release skc from stack of x42 zkc	1			0	18	70	42		1	zkc							zkc,qty=41																													skc																																																										0
-gems release skc from stack of x41 zkc	1			0	18	70	41		1	zkc							zkc,qty=40																													skc																																																										0
-gems release skc from stack of x40 zkc	1			0	18	70	40		1	zkc							zkc,qty=39																													skc																																																										0
-gems release skc from stack of x39 zkc	1			0	18	70	39		1	zkc							zkc,qty=38																													skc																																																										0
-gems release skc from stack of x38 zkc	1			0	18	70	38		1	zkc							zkc,qty=37																													skc																																																										0
-gems release skc from stack of x37 zkc	1			0	18	70	37		1	zkc							zkc,qty=36																													skc																																																										0
 gems release skc from stack of x36 zkc	1			0	18	70	36		1	zkc							zkc,qty=35																													skc																																																										0
 gems release skc from stack of x35 zkc	1			0	18	70	35		1	zkc							zkc,qty=34																													skc																																																										0
 gems release skc from stack of x34 zkc	1			0	18	70	34		1	zkc							zkc,qty=33																													skc																																																										0
@@ -1682,18 +1313,6 @@ gems release skc from stack of x3 zkc	1			0	18	70	3		1	zkc							zkc,qty=2						
 gems release skc from stack of x2 zkc	1			0	18	70	2		1	zkc							zkc,qty=1																													skc																																																										0
 gems skf -> stackable zkf	1			0					1	skf							zkf																																																																																							0
 gems stackable zkf -> skf	1			0	18	70	1		1	zkf							skf																																																																																							0
-gems release skf from stack of x48 zkf	1			0	18	70	48		1	zkf							zkf,qty=47																													skf																																																										0
-gems release skf from stack of x47 zkf	1			0	18	70	47		1	zkf							zkf,qty=46																													skf																																																										0
-gems release skf from stack of x46 zkf	1			0	18	70	46		1	zkf							zkf,qty=45																													skf																																																										0
-gems release skf from stack of x45 zkf	1			0	18	70	45		1	zkf							zkf,qty=44																													skf																																																										0
-gems release skf from stack of x44 zkf	1			0	18	70	44		1	zkf							zkf,qty=43																													skf																																																										0
-gems release skf from stack of x43 zkf	1			0	18	70	43		1	zkf							zkf,qty=42																													skf																																																										0
-gems release skf from stack of x42 zkf	1			0	18	70	42		1	zkf							zkf,qty=41																													skf																																																										0
-gems release skf from stack of x41 zkf	1			0	18	70	41		1	zkf							zkf,qty=40																													skf																																																										0
-gems release skf from stack of x40 zkf	1			0	18	70	40		1	zkf							zkf,qty=39																													skf																																																										0
-gems release skf from stack of x39 zkf	1			0	18	70	39		1	zkf							zkf,qty=38																													skf																																																										0
-gems release skf from stack of x38 zkf	1			0	18	70	38		1	zkf							zkf,qty=37																													skf																																																										0
-gems release skf from stack of x37 zkf	1			0	18	70	37		1	zkf							zkf,qty=36																													skf																																																										0
 gems release skf from stack of x36 zkf	1			0	18	70	36		1	zkf							zkf,qty=35																													skf																																																										0
 gems release skf from stack of x35 zkf	1			0	18	70	35		1	zkf							zkf,qty=34																													skf																																																										0
 gems release skf from stack of x34 zkf	1			0	18	70	34		1	zkf							zkf,qty=33																													skf																																																										0
@@ -1731,18 +1350,6 @@ gems release skf from stack of x3 zkf	1			0	18	70	3		1	zkf							zkf,qty=2						
 gems release skf from stack of x2 zkf	1			0	18	70	2		1	zkf							zkf,qty=1																													skf																																																										0
 gems sku -> stackable zku	1			0					1	sku							zku																																																																																							0
 gems stackable zku -> sku	1			0	18	70	1		1	zku							sku																																																																																							0
-gems release sku from stack of x48 zku	1			0	18	70	48		1	zku							zku,qty=47																													sku																																																										0
-gems release sku from stack of x47 zku	1			0	18	70	47		1	zku							zku,qty=46																													sku																																																										0
-gems release sku from stack of x46 zku	1			0	18	70	46		1	zku							zku,qty=45																													sku																																																										0
-gems release sku from stack of x45 zku	1			0	18	70	45		1	zku							zku,qty=44																													sku																																																										0
-gems release sku from stack of x44 zku	1			0	18	70	44		1	zku							zku,qty=43																													sku																																																										0
-gems release sku from stack of x43 zku	1			0	18	70	43		1	zku							zku,qty=42																													sku																																																										0
-gems release sku from stack of x42 zku	1			0	18	70	42		1	zku							zku,qty=41																													sku																																																										0
-gems release sku from stack of x41 zku	1			0	18	70	41		1	zku							zku,qty=40																													sku																																																										0
-gems release sku from stack of x40 zku	1			0	18	70	40		1	zku							zku,qty=39																													sku																																																										0
-gems release sku from stack of x39 zku	1			0	18	70	39		1	zku							zku,qty=38																													sku																																																										0
-gems release sku from stack of x38 zku	1			0	18	70	38		1	zku							zku,qty=37																													sku																																																										0
-gems release sku from stack of x37 zku	1			0	18	70	37		1	zku							zku,qty=36																													sku																																																										0
 gems release sku from stack of x36 zku	1			0	18	70	36		1	zku							zku,qty=35																													sku																																																										0
 gems release sku from stack of x35 zku	1			0	18	70	35		1	zku							zku,qty=34																													sku																																																										0
 gems release sku from stack of x34 zku	1			0	18	70	34		1	zku							zku,qty=33																													sku																																																										0
@@ -1780,18 +1387,6 @@ gems release sku from stack of x3 zku	1			0	18	70	3		1	zku							zku,qty=2						
 gems release sku from stack of x2 zku	1			0	18	70	2		1	zku							zku,qty=1																													sku																																																										0
 gems skl -> stackable zkl	1			0					1	skl							zkl																																																																																							0
 gems stackable zkl -> skl	1			0	18	70	1		1	zkl							skl																																																																																							0
-gems release skl from stack of x48 zkl	1			0	18	70	48		1	zkl							zkl,qty=47																													skl																																																										0
-gems release skl from stack of x47 zkl	1			0	18	70	47		1	zkl							zkl,qty=46																													skl																																																										0
-gems release skl from stack of x46 zkl	1			0	18	70	46		1	zkl							zkl,qty=45																													skl																																																										0
-gems release skl from stack of x45 zkl	1			0	18	70	45		1	zkl							zkl,qty=44																													skl																																																										0
-gems release skl from stack of x44 zkl	1			0	18	70	44		1	zkl							zkl,qty=43																													skl																																																										0
-gems release skl from stack of x43 zkl	1			0	18	70	43		1	zkl							zkl,qty=42																													skl																																																										0
-gems release skl from stack of x42 zkl	1			0	18	70	42		1	zkl							zkl,qty=41																													skl																																																										0
-gems release skl from stack of x41 zkl	1			0	18	70	41		1	zkl							zkl,qty=40																													skl																																																										0
-gems release skl from stack of x40 zkl	1			0	18	70	40		1	zkl							zkl,qty=39																													skl																																																										0
-gems release skl from stack of x39 zkl	1			0	18	70	39		1	zkl							zkl,qty=38																													skl																																																										0
-gems release skl from stack of x38 zkl	1			0	18	70	38		1	zkl							zkl,qty=37																													skl																																																										0
-gems release skl from stack of x37 zkl	1			0	18	70	37		1	zkl							zkl,qty=36																													skl																																																										0
 gems release skl from stack of x36 zkl	1			0	18	70	36		1	zkl							zkl,qty=35																													skl																																																										0
 gems release skl from stack of x35 zkl	1			0	18	70	35		1	zkl							zkl,qty=34																													skl																																																										0
 gems release skl from stack of x34 zkl	1			0	18	70	34		1	zkl							zkl,qty=33																													skl																																																										0
@@ -1829,18 +1424,6 @@ gems release skl from stack of x3 zkl	1			0	18	70	3		1	zkl							zkl,qty=2						
 gems release skl from stack of x2 zkl	1			0	18	70	2		1	zkl							zkl,qty=1																													skl																																																										0
 gems skz -> stackable zkz	1			0					1	skz							zkz																																																																																							0
 gems stackable zkz -> skz	1			0	18	70	1		1	zkz							skz																																																																																							0
-gems release skz from stack of x48 zkz	1			0	18	70	48		1	zkz							zkz,qty=47																													skz																																																										0
-gems release skz from stack of x47 zkz	1			0	18	70	47		1	zkz							zkz,qty=46																													skz																																																										0
-gems release skz from stack of x46 zkz	1			0	18	70	46		1	zkz							zkz,qty=45																													skz																																																										0
-gems release skz from stack of x45 zkz	1			0	18	70	45		1	zkz							zkz,qty=44																													skz																																																										0
-gems release skz from stack of x44 zkz	1			0	18	70	44		1	zkz							zkz,qty=43																													skz																																																										0
-gems release skz from stack of x43 zkz	1			0	18	70	43		1	zkz							zkz,qty=42																													skz																																																										0
-gems release skz from stack of x42 zkz	1			0	18	70	42		1	zkz							zkz,qty=41																													skz																																																										0
-gems release skz from stack of x41 zkz	1			0	18	70	41		1	zkz							zkz,qty=40																													skz																																																										0
-gems release skz from stack of x40 zkz	1			0	18	70	40		1	zkz							zkz,qty=39																													skz																																																										0
-gems release skz from stack of x39 zkz	1			0	18	70	39		1	zkz							zkz,qty=38																													skz																																																										0
-gems release skz from stack of x38 zkz	1			0	18	70	38		1	zkz							zkz,qty=37																													skz																																																										0
-gems release skz from stack of x37 zkz	1			0	18	70	37		1	zkz							zkz,qty=36																													skz																																																										0
 gems release skz from stack of x36 zkz	1			0	18	70	36		1	zkz							zkz,qty=35																													skz																																																										0
 gems release skz from stack of x35 zkz	1			0	18	70	35		1	zkz							zkz,qty=34																													skz																																																										0
 gems release skz from stack of x34 zkz	1			0	18	70	34		1	zkz							zkz,qty=33																													skz																																																										0
@@ -2305,3 +1888,133 @@ runes release r33 from stack of x5 s33	1			100	18	70	5		1	s33							s33,qty=4			
 runes release r33 from stack of x4 s33	1			100	18	70	4		1	s33							s33,qty=3																													r33																																																										0
 runes release r33 from stack of x3 s33	1			100	18	70	3		1	s33							s33,qty=2																													r33																																																										0
 runes release r33 from stack of x2 s33	1			100	18	70	2		1	s33							s33,qty=1																													r33																																																										0
+fragments jew -> stackable jfg	1			100					1	jew							jfg																																																																																							0
+fragments release jew from stack of x72 jfg	1			100	18	70	72		1	jfg							jfg,qty=71																													jew																																																										0
+fragments release jew from stack of x71 jfg	1			100	18	70	71		1	jfg							jfg,qty=70																													jew																																																										0
+fragments release jew from stack of x70 jfg	1			100	18	70	70		1	jfg							jfg,qty=69																													jew																																																										0
+fragments release jew from stack of x69 jfg	1			100	18	70	69		1	jfg							jfg,qty=68																													jew																																																										0
+fragments release jew from stack of x68 jfg	1			100	18	70	68		1	jfg							jfg,qty=67																													jew																																																										0
+fragments release jew from stack of x67 jfg	1			100	18	70	67		1	jfg							jfg,qty=66																													jew																																																										0
+fragments release jew from stack of x66 jfg	1			100	18	70	66		1	jfg							jfg,qty=65																													jew																																																										0
+fragments release jew from stack of x65 jfg	1			100	18	70	65		1	jfg							jfg,qty=64																													jew																																																										0
+fragments release jew from stack of x64 jfg	1			100	18	70	64		1	jfg							jfg,qty=63																													jew																																																										0
+fragments release jew from stack of x63 jfg	1			100	18	70	63		1	jfg							jfg,qty=62																													jew																																																										0
+fragments release jew from stack of x62 jfg	1			100	18	70	62		1	jfg							jfg,qty=61																													jew																																																										0
+fragments release jew from stack of x61 jfg	1			100	18	70	61		1	jfg							jfg,qty=60																													jew																																																										0
+fragments release jew from stack of x60 jfg	1			100	18	70	60		1	jfg							jfg,qty=59																													jew																																																										0
+fragments release jew from stack of x59 jfg	1			100	18	70	59		1	jfg							jfg,qty=58																													jew																																																										0
+fragments release jew from stack of x58 jfg	1			100	18	70	58		1	jfg							jfg,qty=57																													jew																																																										0
+fragments release jew from stack of x57 jfg	1			100	18	70	57		1	jfg							jfg,qty=56																													jew																																																										0
+fragments release jew from stack of x56 jfg	1			100	18	70	56		1	jfg							jfg,qty=55																													jew																																																										0
+fragments release jew from stack of x55 jfg	1			100	18	70	55		1	jfg							jfg,qty=54																													jew																																																										0
+fragments release jew from stack of x54 jfg	1			100	18	70	54		1	jfg							jfg,qty=53																													jew																																																										0
+fragments release jew from stack of x53 jfg	1			100	18	70	53		1	jfg							jfg,qty=52																													jew																																																										0
+fragments release jew from stack of x52 jfg	1			100	18	70	52		1	jfg							jfg,qty=51																													jew																																																										0
+fragments release jew from stack of x51 jfg	1			100	18	70	51		1	jfg							jfg,qty=50																													jew																																																										0
+fragments release jew from stack of x50 jfg	1			100	18	70	50		1	jfg							jfg,qty=49																													jew																																																										0
+fragments release jew from stack of x49 jfg	1			100	18	70	49		1	jfg							jfg,qty=48																													jew																																																										0
+fragments release jew from stack of x48 jfg	1			100	18	70	48		1	jfg							jfg,qty=47																													jew																																																										0
+fragments release jew from stack of x47 jfg	1			100	18	70	47		1	jfg							jfg,qty=46																													jew																																																										0
+fragments release jew from stack of x46 jfg	1			100	18	70	46		1	jfg							jfg,qty=45																													jew																																																										0
+fragments release jew from stack of x45 jfg	1			100	18	70	45		1	jfg							jfg,qty=44																													jew																																																										0
+fragments release jew from stack of x44 jfg	1			100	18	70	44		1	jfg							jfg,qty=43																													jew																																																										0
+fragments release jew from stack of x43 jfg	1			100	18	70	43		1	jfg							jfg,qty=42																													jew																																																										0
+fragments release jew from stack of x42 jfg	1			100	18	70	42		1	jfg							jfg,qty=41																													jew																																																										0
+fragments release jew from stack of x41 jfg	1			100	18	70	41		1	jfg							jfg,qty=40																													jew																																																										0
+fragments release jew from stack of x40 jfg	1			100	18	70	40		1	jfg							jfg,qty=39																													jew																																																										0
+fragments release jew from stack of x39 jfg	1			100	18	70	39		1	jfg							jfg,qty=38																													jew																																																										0
+fragments release jew from stack of x38 jfg	1			100	18	70	38		1	jfg							jfg,qty=37																													jew																																																										0
+fragments release jew from stack of x37 jfg	1			100	18	70	37		1	jfg							jfg,qty=36																													jew																																																										0
+fragments release jew from stack of x36 jfg	1			100	18	70	36		1	jfg							jfg,qty=35																													jew																																																										0
+fragments release jew from stack of x35 jfg	1			100	18	70	35		1	jfg							jfg,qty=34																													jew																																																										0
+fragments release jew from stack of x34 jfg	1			100	18	70	34		1	jfg							jfg,qty=33																													jew																																																										0
+fragments release jew from stack of x33 jfg	1			100	18	70	33		1	jfg							jfg,qty=32																													jew																																																										0
+fragments release jew from stack of x32 jfg	1			100	18	70	32		1	jfg							jfg,qty=31																													jew																																																										0
+fragments release jew from stack of x31 jfg	1			100	18	70	31		1	jfg							jfg,qty=30																													jew																																																										0
+fragments release jew from stack of x30 jfg	1			100	18	70	30		1	jfg							jfg,qty=29																													jew																																																										0
+fragments release jew from stack of x29 jfg	1			100	18	70	29		1	jfg							jfg,qty=28																													jew																																																										0
+fragments release jew from stack of x28 jfg	1			100	18	70	28		1	jfg							jfg,qty=27																													jew																																																										0
+fragments release jew from stack of x27 jfg	1			100	18	70	27		1	jfg							jfg,qty=26																													jew																																																										0
+fragments release jew from stack of x26 jfg	1			100	18	70	26		1	jfg							jfg,qty=25																													jew																																																										0
+fragments release jew from stack of x25 jfg	1			100	18	70	25		1	jfg							jfg,qty=24																													jew																																																										0
+fragments release jew from stack of x24 jfg	1			100	18	70	24		1	jfg							jfg,qty=23																													jew																																																										0
+fragments release jew from stack of x23 jfg	1			100	18	70	23		1	jfg							jfg,qty=22																													jew																																																										0
+fragments release jew from stack of x22 jfg	1			100	18	70	22		1	jfg							jfg,qty=21																													jew																																																										0
+fragments release jew from stack of x21 jfg	1			100	18	70	21		1	jfg							jfg,qty=20																													jew																																																										0
+fragments release jew from stack of x20 jfg	1			100	18	70	20		1	jfg							jfg,qty=19																													jew																																																										0
+fragments release jew from stack of x19 jfg	1			100	18	70	19		1	jfg							jfg,qty=18																													jew																																																										0
+fragments release jew from stack of x18 jfg	1			100	18	70	18		1	jfg							jfg,qty=17																													jew																																																										0
+fragments release jew from stack of x17 jfg	1			100	18	70	17		1	jfg							jfg,qty=16																													jew																																																										0
+fragments release jew from stack of x16 jfg	1			100	18	70	16		1	jfg							jfg,qty=15																													jew																																																										0
+fragments release jew from stack of x15 jfg	1			100	18	70	15		1	jfg							jfg,qty=14																													jew																																																										0
+fragments release jew from stack of x14 jfg	1			100	18	70	14		1	jfg							jfg,qty=13																													jew																																																										0
+fragments release jew from stack of x13 jfg	1			100	18	70	13		1	jfg							jfg,qty=12																													jew																																																										0
+fragments release jew from stack of x12 jfg	1			100	18	70	12		1	jfg							jfg,qty=11																													jew																																																										0
+fragments release jew from stack of x11 jfg	1			100	18	70	11		1	jfg							jfg,qty=10																													jew																																																										0
+fragments release jew from stack of x10 jfg	1			100	18	70	10		1	jfg							jfg,qty=9																													jew																																																										0
+fragments release jew from stack of x9 jfg	1			100	18	70	9		1	jfg							jfg,qty=8																													jew																																																										0
+fragments release jew from stack of x8 jfg	1			100	18	70	8		1	jfg							jfg,qty=7																													jew																																																										0
+fragments release jew from stack of x7 jfg	1			100	18	70	7		1	jfg							jfg,qty=6																													jew																																																										0
+fragments release jew from stack of x6 jfg	1			100	18	70	6		1	jfg							jfg,qty=5																													jew																																																										0
+fragments release jew from stack of x5 jfg	1			100	18	70	5		1	jfg							jfg,qty=4																													jew																																																										0
+fragments release jew from stack of x4 jfg	1			100	18	70	4		1	jfg							jfg,qty=3																													jew																																																										0
+fragments release jew from stack of x3 jfg	1			100	18	70	3		1	jfg							jfg,qty=2																													jew																																																										0
+fragments release jew from stack of x2 jfg	1			100	18	70	2		1	jfg							jfg,qty=1																													jew																																																										0
+keys release from stack of x24	1			0	18	70	24		1	key							key,qty=23																													key,qty=1																																																										0
+keys release from stack of x23	1			0	18	70	23		1	key							key,qty=22																													key,qty=1																																																										0
+keys release from stack of x22	1			0	18	70	22		1	key							key,qty=21																													key,qty=1																																																										0
+keys release from stack of x21	1			0	18	70	21		1	key							key,qty=20																													key,qty=1																																																										0
+keys release from stack of x20	1			0	18	70	20		1	key							key,qty=19																													key,qty=1																																																										0
+keys release from stack of x19	1			0	18	70	19		1	key							key,qty=18																													key,qty=1																																																										0
+keys release from stack of x18	1			0	18	70	18		1	key							key,qty=17																													key,qty=1																																																										0
+keys release from stack of x17	1			0	18	70	17		1	key							key,qty=16																													key,qty=1																																																										0
+keys release from stack of x16	1			0	18	70	16		1	key							key,qty=15																													key,qty=1																																																										0
+keys release from stack of x15	1			0	18	70	15		1	key							key,qty=14																													key,qty=1																																																										0
+keys release from stack of x14	1			0	18	70	14		1	key							key,qty=13																													key,qty=1																																																										0
+keys release from stack of x13	1			0	18	70	13		1	key							key,qty=12																													key,qty=1																																																										0
+keys release from stack of x12	1			0	18	70	12		1	key							key,qty=11																													key,qty=1																																																										0
+keys release from stack of x11	1			0	18	70	11		1	key							key,qty=10																													key,qty=1																																																										0
+keys release from stack of x10	1			0	18	70	10		1	key							key,qty=9																													key,qty=1																																																										0
+keys release from stack of x9	1			0	18	70	9		1	key							key,qty=8																													key,qty=1																																																										0
+keys release from stack of x8	1			0	18	70	8		1	key							key,qty=7																													key,qty=1																																																										0
+keys release from stack of x7	1			0	18	70	7		1	key							key,qty=6																													key,qty=1																																																										0
+keys release from stack of x6	1			0	18	70	6		1	key							key,qty=5																													key,qty=1																																																										0
+keys release from stack of x5	1			0	18	70	5		1	key							key,qty=4																													key,qty=1																																																										0
+keys release from stack of x4	1			0	18	70	4		1	key							key,qty=3																													key,qty=1																																																										0
+keys release from stack of x3	1			0	18	70	3		1	key							key,qty=2																													key,qty=1																																																										0
+keys release from stack of x2	1			0	18	70	2		1	key							key,qty=1																													key,qty=1																																																										0
+shards release from stack of x36	1			0	18	70	36		1	wsh							wsh,qty=35																													wsh,qty=1																																																										0
+shards release from stack of x35	1			0	18	70	35		1	wsh							wsh,qty=34																													wsh,qty=1																																																										0
+shards release from stack of x34	1			0	18	70	34		1	wsh							wsh,qty=33																													wsh,qty=1																																																										0
+shards release from stack of x33	1			0	18	70	33		1	wsh							wsh,qty=32																													wsh,qty=1																																																										0
+shards release from stack of x32	1			0	18	70	32		1	wsh							wsh,qty=31																													wsh,qty=1																																																										0
+shards release from stack of x31	1			0	18	70	31		1	wsh							wsh,qty=30																													wsh,qty=1																																																										0
+shards release from stack of x30	1			0	18	70	30		1	wsh							wsh,qty=29																													wsh,qty=1																																																										0
+shards release from stack of x29	1			0	18	70	29		1	wsh							wsh,qty=28																													wsh,qty=1																																																										0
+shards release from stack of x28	1			0	18	70	28		1	wsh							wsh,qty=27																													wsh,qty=1																																																										0
+shards release from stack of x27	1			0	18	70	27		1	wsh							wsh,qty=26																													wsh,qty=1																																																										0
+shards release from stack of x26	1			0	18	70	26		1	wsh							wsh,qty=25																													wsh,qty=1																																																										0
+shards release from stack of x25	1			0	18	70	25		1	wsh							wsh,qty=24																													wsh,qty=1																																																										0
+shards release from stack of x24	1			0	18	70	24		1	wsh							wsh,qty=23																													wsh,qty=1																																																										0
+shards release from stack of x23	1			0	18	70	23		1	wsh							wsh,qty=22																													wsh,qty=1																																																										0
+shards release from stack of x22	1			0	18	70	22		1	wsh							wsh,qty=21																													wsh,qty=1																																																										0
+shards release from stack of x21	1			0	18	70	21		1	wsh							wsh,qty=20																													wsh,qty=1																																																										0
+shards release from stack of x20	1			0	18	70	20		1	wsh							wsh,qty=19																													wsh,qty=1																																																										0
+shards release from stack of x19	1			0	18	70	19		1	wsh							wsh,qty=18																													wsh,qty=1																																																										0
+shards release from stack of x18	1			0	18	70	18		1	wsh							wsh,qty=17																													wsh,qty=1																																																										0
+shards release from stack of x17	1			0	18	70	17		1	wsh							wsh,qty=16																													wsh,qty=1																																																										0
+shards release from stack of x16	1			0	18	70	16		1	wsh							wsh,qty=15																													wsh,qty=1																																																										0
+shards release from stack of x15	1			0	18	70	15		1	wsh							wsh,qty=14																													wsh,qty=1																																																										0
+shards release from stack of x14	1			0	18	70	14		1	wsh							wsh,qty=13																													wsh,qty=1																																																										0
+shards release from stack of x13	1			0	18	70	13		1	wsh							wsh,qty=12																													wsh,qty=1																																																										0
+shards release from stack of x12	1			0	18	70	12		1	wsh							wsh,qty=11																													wsh,qty=1																																																										0
+shards release from stack of x11	1			0	18	70	11		1	wsh							wsh,qty=10																													wsh,qty=1																																																										0
+shards release from stack of x10	1			0	18	70	10		1	wsh							wsh,qty=9																													wsh,qty=1																																																										0
+shards release from stack of x9	1			0	18	70	9		1	wsh							wsh,qty=8																													wsh,qty=1																																																										0
+shards release from stack of x8	1			0	18	70	8		1	wsh							wsh,qty=7																													wsh,qty=1																																																										0
+shards release from stack of x7	1			0	18	70	7		1	wsh							wsh,qty=6																													wsh,qty=1																																																										0
+shards release from stack of x6	1			0	18	70	6		1	wsh							wsh,qty=5																													wsh,qty=1																																																										0
+shards release from stack of x5	1			0	18	70	5		1	wsh							wsh,qty=4																													wsh,qty=1																																																										0
+shards release from stack of x4	1			0	18	70	4		1	wsh							wsh,qty=3																													wsh,qty=1																																																										0
+shards release from stack of x3	1			0	18	70	3		1	wsh							wsh,qty=2																													wsh,qty=1																																																										0
+shards release from stack of x2	1			0	18	70	2		1	wsh							wsh,qty=1																													wsh,qty=1																																																										0

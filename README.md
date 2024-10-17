@@ -1,24 +1,26 @@
 # Diablo II Reformed
 
+![Diablo II Resurrected](https://i.imgur.com/LJvw35g.png)
+
 This is a custom mod for Diablo II Resurrected v2.4.3 (June 29, 2022).  This is the version of the game I play on SSF offline, which I think represents the last true "classic" D2 version.
 
 It's also the version I'm hearing [rumors](https://www.d2rmodding.com/remodded) could support TCP/IP games.  Whoever at Blizzard made the decision to strip TCP/IP from the game -- after it was already in there -- is going to Hell.
 
 I'm putting a lot of effort into making this as good as I can get it, w/ a few ideas from Project Diablo 2.  I plan to spend quite a bit of time adventuring in Sanctuary.
 
-STATUS: In progress, not a final product.
+STATUS: IN PROGRESS
 
 ## Features
 
-I'm focusing on QOL features and trying to leave the game as classic as I can.
+I'm focusing on QOL features but trying to leave the game as classic as I can.
 
 - **Skip Intro** - skip the intro videos when you boot the game
-- **Main Menu** - removed character models to show you scenes of Santuary (like D2LOD)
+- **Main Menu** - removed character models to show you scenes of Santuary
 - **Extra Stash** - stash has the max 7 tabs allowed by the game
 - **Cain Location** - Deckard Cain now stands by the stash in Act V
+- **Amazon Retouch** - restoring model to be closer to the original game
 - **Loot Filter** - shortening names w/ icons since we don't have a true loot filter
 - **Stackable Items** - gems and runes are now stackable (when converted in cube)
-- **Light Beams** - charms, jewels, and runes show beams of light
 - **Magic Quivers** - arrows and bolts can be magic and rare
 - **Infinite Ammo** - quivers and throwing weapons replenish quantity
 - **Splash Damage** - all melee weapons have splash damage (tuned low at 25%)
@@ -31,30 +33,28 @@ I'm focusing on QOL features and trying to leave the game as classic as I can.
         - Always drops 3 runes
         - Can drop higher runes than vanilla
 - **Class Tweaks**
-    - Amazon
-        - Restored her blonde hair
     - Druid
         - Lycanthropy lasts 1min per point (from 20sec)
         - Vines and Spirits cannot die
 - **Merc Auras**
-    - Act 1
-        - Fire - Blessed Aim
-        - Ice - Blessed Aim
-    - Act 2 (no changes)
+    - Act 1 - Blessed Aim
     - Act 3 (no changes YET)
     - Act 5 (no changes YET)
 - **Cube Recipies**
     - 3x Gem -> Upgraded Gem
     - 2x Rune -> Upgraded Rune
-    - Key -> Token of Absolution
+    - 1x Key -> Token of Absolution
+    - Stack of Gems/Runes/Keys -> Separate 1x From Stack
     - Socketed Item + Key -> Safe Unsocket
-    - Any Armor/Weapon + Hel Rune -> Socketed Item (experimental)
-        - The idea is to replicate "corrupting" items, but to do it in a way that just adds sockets beyond what Larzuk would give you.  The reason I like this is bc the game is filled w/ gems and runes that we don't really use beyond runewords -- so we should use them in sockets in our unique and set items.  The risk of "corrupting" is that you might only roll one socket.
+    - Any Armor/Weapon + Worldstone Shard -> Corrupted Item (experimental)
+- **Corrupted Items**
+    - Corrupting an item w/ a Worldstone Shard is a chance to add sockets to the item.  I want the player to have reasons to care about gems and runes, and the only way to make those items meaningful is to make them usable in your unique and set items.  Any armor or weapon can be corrupted.
 
 ### Todo
 
-- Enable mass gem upgrades by the stack
-- Jewel Fragments from PD2, would have to change recipies
+- Enable en masse gem upgrades by the stack
+- Add new sprites for Jewel Fragment and Worldstone Shard
+- Make Jewel Fragment recipies work as if it were a Jewel
 
 ## Install
 
@@ -80,7 +80,7 @@ Replenishing ammo runs at different time frames depending on the item.  Arrows a
 
 I couldn't get these ideas work:
 
-- Light beams for unique and set items
+- Light beams on drop for unique and set items
 
 ## Keyboard Macros
 

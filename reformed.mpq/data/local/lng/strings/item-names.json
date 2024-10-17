@@ -1487,7 +1487,7 @@
     {
         "id": 2231,
         "Key": "box",
-        "enUS": "\u00ffcK\u2088 \u00ffc7Horadric Cube"
+        "enUS": "Horadric Cube"
     },
     {
         "id": 2232,
@@ -1497,7 +1497,7 @@
     {
         "id": 2233,
         "Key": "mss",
-        "enUS": "\u00ffcB\u2088 \u00ffc7Mephisto's \u00ffcKSoulstone"
+        "enUS": "\u00ffcB\u2088 \u00ffcBMephisto's \u00ffcKSoulstone"
     },
     {
         "id": 2235,
@@ -1517,17 +1517,17 @@
     {
         "id": 2238,
         "Key": "gsv",
-        "enUS": "\u00ffc;\u2082 \u00ffc0Amethyst \u00ffcKNormal"
+        "enUS": "\u00ffc;\u2083 \u00ffc0Amethyst \u00ffcKNormal"
     },
     {
         "id": 2239,
         "Key": "gzv",
-        "enUS": "\u00ffc;\u2083 \u00ffc0Amethyst \u00ffcKFlawless"
+        "enUS": "\u00ffc;\u2084 \u00ffc0Amethyst \u00ffcKFlawless"
     },
     {
         "id": 2240,
         "Key": "gpv",
-        "enUS": "\u00ffc;\u2084 \u00ffc0Amethyst \u00ffcKPerfect"
+        "enUS": "\u00ffc;\u2082 \u00ffc0Amethyst \u00ffcKPerfect"
     },
     {
         "id": 2241,
@@ -1542,17 +1542,17 @@
     {
         "id": 2243,
         "Key": "gsy",
-        "enUS": "\u00ffc9\u2082 \u00ffc0Topaz \u00ffcKNormal"
+        "enUS": "\u00ffc9\u2083 \u00ffc0Topaz \u00ffcKNormal"
     },
     {
         "id": 2244,
         "Key": "gly",
-        "enUS": "\u00ffc9\u2083 \u00ffc0Topaz \u00ffcKFlawless"
+        "enUS": "\u00ffc9\u2084 \u00ffc0Topaz \u00ffcKFlawless"
     },
     {
         "id": 2245,
         "Key": "gpy",
-        "enUS": "\u00ffc9\u2084 \u00ffc0Topaz \u00ffcKPerfect"
+        "enUS": "\u00ffc9\u2082 \u00ffc0Topaz \u00ffcKPerfect"
     },
     {
         "id": 2246,
@@ -1567,12 +1567,12 @@
     {
         "id": 2249,
         "Key": "glb",
-        "enUS": "\u00ffcB\u2083 \u00ffc0Saphire \u00ffcKFlawless"
+        "enUS": "\u00ffcB\u2084 \u00ffc0Saphire \u00ffcKFlawless"
     },
     {
         "id": 2250,
         "Key": "gpb",
-        "enUS": "\u00ffcB\u2084 \u00ffc0Saphire \u00ffcKPerfect"
+        "enUS": "\u00ffcB\u2082 \u00ffc0Saphire \u00ffcKPerfect"
     },
     {
         "id": 2251,
@@ -1587,12 +1587,12 @@
     {
         "id": 2253,
         "Key": "glg",
-        "enUS": "\u00ffc<\u2083 \u00ffc0Emerald \u00ffcKFlawless"
+        "enUS": "\u00ffc<\u2084 \u00ffc0Emerald \u00ffcKFlawless"
     },
     {
         "id": 2255,
         "Key": "gpg",
-        "enUS": "\u00ffc<\u2084 \u00ffc0Emerald \u00ffcKPerfect"
+        "enUS": "\u00ffc<\u2082 \u00ffc0Emerald \u00ffcKPerfect"
     },
     {
         "id": 2256,
@@ -1607,12 +1607,12 @@
     {
         "id": 2259,
         "Key": "glr",
-        "enUS": "\u00ffcS\u2083 \u00ffc0Ruby \u00ffcKFlawless"
+        "enUS": "\u00ffcS\u2084 \u00ffc0Ruby \u00ffcKFlawless"
     },
     {
         "id": 2260,
         "Key": "gpr",
-        "enUS": "\u00ffcS\u2084 \u00ffc0Ruby \u00ffcKPerfect"
+        "enUS": "\u00ffcS\u2082 \u00ffc0Ruby \u00ffcKPerfect"
     },
     {
         "id": 2261,
@@ -1627,12 +1627,12 @@
     {
         "id": 2264,
         "Key": "glw",
-        "enUS": "\u00ffcK\u2083 \u00ffc0Diamond \u00ffcKFlawless"
+        "enUS": "\u00ffcK\u2084 \u00ffc0Diamond \u00ffcKFlawless"
     },
     {
         "id": 2265,
         "Key": "gpw",
-        "enUS": "\u00ffcK\u2084 \u00ffc0Diamond \u00ffcKPerfect"
+        "enUS": "\u00ffcK\u2082 \u00ffc0Diamond \u00ffcKPerfect"
     },
     {
         "id": 2266,
@@ -1697,17 +1697,17 @@
     {
         "id": 2279,
         "Key": "sku",
-        "enUS": "\u00ffcK\u2082 \u00ffc0Skull \u00ffcKNormal"
+        "enUS": "\u00ffcK\u2083 \u00ffc0Skull \u00ffcKNormal"
     },
     {
         "id": 2280,
         "Key": "skl",
-        "enUS": "\u00ffcK\u2083 \u00ffc0Skull \u00ffcKFlawless"
+        "enUS": "\u00ffcK\u2084 \u00ffc0Skull \u00ffcKFlawless"
     },
     {
         "id": 2281,
         "Key": "skz",
-        "enUS": "\u00ffcK\u2084 \u00ffc0Skull \u00ffcKPerfect"
+        "enUS": "\u00ffcK\u2082 \u00ffc0Skull \u00ffcKPerfect"
     },
     {
         "id": 2284,
@@ -4232,12 +4232,12 @@
     {
         "id": 20292,
         "Key": "am1",
-        "enUS": "\u2158 Stag Bow"
+        "enUS": "\u2158  Stag Bow"
     },
     {
         "id": 20293,
         "Key": "am2",
-        "enUS": "\u2158 Reflex Bow"
+        "enUS": "\u2158  Reflex Bow"
     },
     {
         "id": 20294,
@@ -4282,12 +4282,12 @@
     {
         "id": 20302,
         "Key": "am6",
-        "enUS": "\u00b2\u2158 Ashwood Bow"
+        "enUS": "\u00b2\u2158  Ashwood Bow"
     },
     {
         "id": 20303,
         "Key": "am7",
-        "enUS": "\u00b2\u2158 Ceremonial Bow"
+        "enUS": "\u00b2\u2158  Ceremonial Bow"
     },
     {
         "id": 20304,
@@ -4332,12 +4332,12 @@
     {
         "id": 20312,
         "Key": "amb",
-        "enUS": "\u00b3\u2158 Matriarchal Bow"
+        "enUS": "\u00b3\u2158  Matriarchal Bow"
     },
     {
         "id": 20313,
         "Key": "amc",
-        "enUS": "\u00b3\u2158 Grand Matron Bow"
+        "enUS": "\u00b3\u2158  Grand Matron Bow"
     },
     {
         "id": 20314,
@@ -7662,17 +7662,17 @@
     {
         "id": 30003,
         "Key": "zsv",
-        "enUS": "\u00ffc;\u2082 \u00ffc0Amethyst \u00ffcKNormal"
+        "enUS": "\u00ffc;\u2083 \u00ffc0Amethyst \u00ffcKNormal"
     },
     {
         "id": 30004,
         "Key": "zzv",
-        "enUS": "\u00ffc;\u2083 \u00ffc0Amethyst \u00ffcKFlawless"
+        "enUS": "\u00ffc;\u2084 \u00ffc0Amethyst \u00ffcKFlawless"
     },
     {
         "id": 30005,
         "Key": "zpv",
-        "enUS": "\u00ffc;\u2084 \u00ffc0Amethyst \u00ffcKPerfect"
+        "enUS": "\u00ffc;\u2082 \u00ffc0Amethyst \u00ffcKPerfect"
     },
     {
         "id": 30006,
@@ -7687,17 +7687,17 @@
     {
         "id": 30008,
         "Key": "zsy",
-        "enUS": "\u00ffc9\u2082 \u00ffc0Topaz \u00ffcKNormal"
+        "enUS": "\u00ffc9\u2083 \u00ffc0Topaz \u00ffcKNormal"
     },
     {
         "id": 30009,
         "Key": "zly",
-        "enUS": "\u00ffc9\u2083 \u00ffc0Topaz \u00ffcKFlawless"
+        "enUS": "\u00ffc9\u2084 \u00ffc0Topaz \u00ffcKFlawless"
     },
     {
         "id": 30010,
         "Key": "zpy",
-        "enUS": "\u00ffc9\u2084 \u00ffc0Topaz \u00ffcKPerfect"
+        "enUS": "\u00ffc9\u2082 \u00ffc0Topaz \u00ffcKPerfect"
     },
     {
         "id": 30011,
@@ -7712,12 +7712,12 @@
     {
         "id": 30013,
         "Key": "qlb",
-        "enUS": "\u00ffcB\u2083 \u00ffc0Saphire \u00ffcKFlawless"
+        "enUS": "\u00ffcB\u2084 \u00ffc0Saphire \u00ffcKFlawless"
     },
     {
         "id": 30014,
         "Key": "zpb",
-        "enUS": "\u00ffcB\u2084 \u00ffc0Saphire \u00ffcKPerfect"
+        "enUS": "\u00ffcB\u2082 \u00ffc0Saphire \u00ffcKPerfect"
     },
     {
         "id": 30015,
@@ -7732,12 +7732,12 @@
     {
         "id": 30017,
         "Key": "zlg",
-        "enUS": "\u00ffc<\u2083 \u00ffc0Emerald \u00ffcKFlawless"
+        "enUS": "\u00ffc<\u2084 \u00ffc0Emerald \u00ffcKFlawless"
     },
     {
         "id": 30018,
         "Key": "zpg",
-        "enUS": "\u00ffc<\u2084 \u00ffc0Emerald \u00ffcKPerfect"
+        "enUS": "\u00ffc<\u2082 \u00ffc0Emerald \u00ffcKPerfect"
     },
     {
         "id": 30019,
@@ -7752,12 +7752,12 @@
     {
         "id": 30021,
         "Key": "zlr",
-        "enUS": "\u00ffcS\u2083 \u00ffc0Ruby \u00ffcKFlawless"
+        "enUS": "\u00ffcS\u2084 \u00ffc0Ruby \u00ffcKFlawless"
     },
     {
         "id": 30022,
         "Key": "zpr",
-        "enUS": "\u00ffcS\u2084 \u00ffc0Ruby \u00ffcKPerfect"
+        "enUS": "\u00ffcS\u2082 \u00ffc0Ruby \u00ffcKPerfect"
     },
     {
         "id": 30023,
@@ -7772,12 +7772,12 @@
     {
         "id": 30025,
         "Key": "zlw",
-        "enUS": "\u00ffcK\u2083 \u00ffc0Diamond \u00ffcKFlawless"
+        "enUS": "\u00ffcK\u2084 \u00ffc0Diamond \u00ffcKFlawless"
     },
     {
         "id": 30026,
         "Key": "zpw",
-        "enUS": "\u00ffcK\u2084 \u00ffc0Diamond \u00ffcKPerfect"
+        "enUS": "\u00ffcK\u2082 \u00ffc0Diamond \u00ffcKPerfect"
     },
     {
         "id": 30027,
@@ -7792,17 +7792,17 @@
     {
         "id": 30029,
         "Key": "zku",
-        "enUS": "\u00ffcK\u2082 \u00ffc0Skull \u00ffcKNormal"
+        "enUS": "\u00ffcK\u2083 \u00ffc0Skull \u00ffcKNormal"
     },
     {
         "id": 30030,
         "Key": "zkl",
-        "enUS": "\u00ffcK\u2083 \u00ffc0Skull \u00ffcKFlawless"
+        "enUS": "\u00ffcK\u2084 \u00ffc0Skull \u00ffcKFlawless"
     },
     {
         "id": 30031,
         "Key": "zkz",
-        "enUS": "\u00ffcK\u2084 \u00ffc0Skull \u00ffcKPerfect"
+        "enUS": "\u00ffcK\u2082 \u00ffc0Skull \u00ffcKPerfect"
     },
     {
         "id": 31033,
@@ -7968,5 +7968,15 @@
         "id": 31001,
         "Key": "s01",
         "enUS": "\u00ffcK\u216e \u00ffcJEl \u00ffcK1"
+    },
+    {
+        "id": 32000,
+        "Key": "wsh",
+        "enUS": "\u00ffcK\u2086 \u00ffcSW \u00ffcKShard"
+    },
+    {
+        "id": 32001,
+        "Key": "jfg",
+        "enUS": "\u00ffcK\u2080 \u00ffc0Jewel \u00ffcKFragment"
     }
 ]

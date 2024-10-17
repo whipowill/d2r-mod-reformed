@@ -1693,5 +1693,10 @@
         "id": 27076,
         "Key": "splash3",
         "enUS": "Melee attacks deal splash damage"
+    },
+    {
+        "id": 27077,
+        "Key": "Moditemiscorrupted",
+        "enUS": "Corrupted"
     }
 ]

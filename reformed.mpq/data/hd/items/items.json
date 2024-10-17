@@ -725,5 +725,7 @@
   { "s30": { "asset": "rune/ber_rune_stack" } },
   { "s31": { "asset": "rune/jah_rune_stack" } },
   { "s32": { "asset": "rune/cham_rune_stack" } },
-  { "s33": { "asset": "rune/zod_rune_stack" } }
+  { "s33": { "asset": "rune/zod_rune_stack" } },
+  { "wsh": { "asset": "gem/worldstone_shard" } },
+  { "jfg": { "asset": "gem/jewel_fragment" } }
 ]

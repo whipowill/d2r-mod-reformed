@@ -361,3 +361,4 @@ passive_mag_pierce	358		1	9												2812		8	0	8	0																												
 skill_cooldown	359			32	16																																														0
 skill_missile_damage_scale	360			32	16																																														0
 item_splashonhit	361		1	7	16						1				-400	0		21	0	7	0	16										1	domeleedamage	20			160	15	0	splash3	splash3										0
+item_iscorrupted	362			11			1	0	10			1	1					7	32	7	32																254	3		Moditemiscorrupted	Moditemiscorrupted										0
