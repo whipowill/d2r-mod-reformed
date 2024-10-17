@@ -4,7 +4,7 @@
 
 This is a custom mod for Diablo II Resurrected v2.4.3 (June 29, 2022).  This is the version of the game I play on SSF offline, which I think represents the last true "classic" D2 version.
 
-It's also the version I'm hearing [rumors](https://www.d2rmodding.com/remodded) could get modded support from TCP/IP games.
+It's also the version I'm hearing [rumors](https://www.d2rmodding.com/remodded) could get modded support for TCP/IP games.
 
 I'm putting a lot of effort into making this as good as I can get it, w/ a few ideas from Project Diablo 2.  I plan to spend quite a bit of time adventuring in Sanctuary.
 
@@ -25,7 +25,7 @@ I'm focusing on QOL features but trying to leave the game as classic as I can.
 - **Splash Damage** - all melee weapons have splash damage (tuned low at 25%)
 - **Countess Counts** - always drops 3 runes, and can drop higher than before
 - **Rune Drops** - high runes are much less punishing to find
-- **Druid Fixes** - Druid shapeshift lasts longer, vines and spirits never die
+- **Druid Fixes** - shapeshift lasts longer, vines and spirits never die
 - **Merc Auras** - Blessed Aim in Act 1, ____ in Act 3, and ____ in Act 4 (unfinished)
 - **Simple Upgrades** - 3x gem to upgrade gem, 2x rune to upgrade rune
 - **Easy Respec** - cube a key to get a Token of Absolution
@@ -33,6 +33,7 @@ I'm focusing on QOL features but trying to leave the game as classic as I can.
 - **Stackable Runes** - cube a rune to convert to stackable form
 - **Safe Unsocket** - socketed item + key -> get the item and runes back
 - **Corrupted Items** - unsocketed unique/set item + Worldstone Shard -> socketed item
+- **Jewel Fragments** - cube a unwanted jewels into stackable jewel fragments
 
 ### Todo
 
@@ -54,7 +55,9 @@ I'm focusing on QOL features but trying to leave the game as classic as I can.
 
 ## Notes
 
-When dealing w/ stackable gems and runes, convert them into their stackable form in the Cube.  Due to a flaw in the game itself, you can't merge stacks of items to each other in the stash.  You have to take your stacked items from the stash, merge them in your inventory, and then move them back to the stash.
+When dealing w/ stackable gems and runes, convert them into their stackable form in the cube.  Due to a flaw in the game itself, you can't merge stacks of items to each other in the stash.  You have to take your stacked items from the stash, merge them in your inventory, and then move them back to the stash.
+
+I made all stackable items (keys, gems, runes, fragments, shards) where if you cube the stack it will break off one from the stack for you.
 
 To disable or tweak melee splash damage, open ``mods/reformed/reformed.mpq/data/global/excel/missiles.txt`` and look for row 688 column DH.  I have this set to ``32`` which means 25% of weapon damage gets splashed (pretty low).  Changing to ``64`` would mean 50% of weapon damage gets splashed.  Changing to ``0`` would mean the feature is disabled.
 
