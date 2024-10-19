@@ -1387,7 +1387,7 @@
     {
         "id": 2207,
         "Key": "vps",
-        "enUS": ""
+        "enUS": "\u00ffcK\u2167 "
     },
     {
         "id": 2208,
@@ -7711,96 +7711,116 @@
     },
     {
         "id": 30013,
+        "Key": "zsb",
+        "enUS": "\u00ffcB\u2083 \u00ffc0Saphire \u00ffcKNormal"
+    },
+    {
+        "id": 30014,
         "Key": "qlb",
         "enUS": "\u00ffcB\u2084 \u00ffc0Saphire \u00ffcKFlawless"
     },
     {
-        "id": 30014,
+        "id": 30015,
         "Key": "zpb",
         "enUS": "\u00ffcB\u2082 \u00ffc0Saphire \u00ffcKPerfect"
     },
     {
-        "id": 30015,
+        "id": 30016,
         "Key": "zcg",
         "enUS": "\u00ffc<\u2080 \u00ffc0Emerald \u00ffcKChipped"
     },
     {
-        "id": 30016,
+        "id": 30017,
         "Key": "zfg",
         "enUS": "\u00ffc<\u2081 \u00ffc0Emerald \u00ffcKFlawed"
     },
     {
         "id": 30017,
+        "Key": "zsg",
+        "enUS": "\u00ffc<\u2083 \u00ffc0Emerald \u00ffcKNormal"
+    },
+    {
+        "id": 30018,
         "Key": "zlg",
         "enUS": "\u00ffc<\u2084 \u00ffc0Emerald \u00ffcKFlawless"
     },
     {
-        "id": 30018,
+        "id": 30019,
         "Key": "zpg",
         "enUS": "\u00ffc<\u2082 \u00ffc0Emerald \u00ffcKPerfect"
     },
     {
-        "id": 30019,
+        "id": 30020,
         "Key": "zcr",
         "enUS": "\u00ffcS\u2080 \u00ffc0Ruby \u00ffcKChipped"
     },
     {
-        "id": 30020,
+        "id": 30021,
         "Key": "zfr",
         "enUS": "\u00ffcS\u2081 \u00ffc0Ruby \u00ffcKFlawed"
     },
     {
         "id": 30021,
+        "Key": "zsr",
+        "enUS": "\u00ffcS\u2083 \u00ffc0Ruby \u00ffcKNormal"
+    },
+    {
+        "id": 30022,
         "Key": "zlr",
         "enUS": "\u00ffcS\u2084 \u00ffc0Ruby \u00ffcKFlawless"
     },
     {
-        "id": 30022,
+        "id": 30023,
         "Key": "zpr",
         "enUS": "\u00ffcS\u2082 \u00ffc0Ruby \u00ffcKPerfect"
     },
     {
-        "id": 30023,
+        "id": 30024,
         "Key": "zcw",
         "enUS": "\u00ffcK\u2080 \u00ffc0Diamond \u00ffcKChipped"
     },
     {
-        "id": 30024,
+        "id": 30025,
         "Key": "zfw",
         "enUS": "\u00ffcK\u2081 \u00ffc0Diamond \u00ffcKFlawed"
     },
     {
-        "id": 30025,
+        "id": 30026,
+        "Key": "zsw",
+        "enUS": "\u00ffcK\u2083 \u00ffc0Diamond \u00ffcKNormal"
+    },
+    {
+        "id": 30027,
         "Key": "zlw",
         "enUS": "\u00ffcK\u2084 \u00ffc0Diamond \u00ffcKFlawless"
     },
     {
-        "id": 30026,
+        "id": 30028,
         "Key": "zpw",
         "enUS": "\u00ffcK\u2082 \u00ffc0Diamond \u00ffcKPerfect"
     },
     {
-        "id": 30027,
+        "id": 30029,
         "Key": "zkc",
         "enUS": "\u00ffcK\u2080 \u00ffc0Skull \u00ffcKChipped"
     },
     {
-        "id": 30028,
+        "id": 30030,
         "Key": "zkf",
         "enUS": "\u00ffcK\u2081 \u00ffc0Skull \u00ffcKFlawed"
     },
     {
-        "id": 30029,
+        "id": 30031,
         "Key": "zku",
         "enUS": "\u00ffcK\u2083 \u00ffc0Skull \u00ffcKNormal"
     },
     {
-        "id": 30030,
+        "id": 30032,
         "Key": "zkl",
         "enUS": "\u00ffcK\u2084 \u00ffc0Skull \u00ffcKFlawless"
     },
     {
-        "id": 30031,
+        "id": 30033,
         "Key": "zkz",
         "enUS": "\u00ffcK\u2082 \u00ffc0Skull \u00ffcKPerfect"
     },

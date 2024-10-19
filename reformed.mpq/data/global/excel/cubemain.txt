@@ -154,15 +154,21 @@ Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level	1			0	28				2
 1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor	1	1		100					4	armo,bas,set	r07	r13	gpw				useitem,mod,exc				levelreq			5	5																																																																															0
 1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon	1	1		100					4	weap,exc,set	r17	r21	gpg				useitem,mod,eli				levelreq			7	7																																																																															0
 1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor	1	1		100					4	armo,exc,set	r18	r20	gpw				useitem,mod,eli				levelreq			7	7																																																																															0
-Error Protect on Throwing Weaps	1			100					2	thro,nos	r15																																																																																													0
-world shard + torso → socketed torso	1			100					2	tors,nos	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
-world shard + weapon → socketed weapon	1			100					2	weap,nos	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
-world shard + helm → socketed helm	1			100					2	helm,nos	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
-world shard + shield → socketed shield	1			100					2	shld,nos	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+Error Protect on Throwing Weaps	1			100					2	thro,nos	wsh																																																																																													0
+world shard + torso → socketed torso	1			100					2	tors,nos,uni	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+world shard + weapon → socketed weapon	1			100					2	weap,nos,uni	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+world shard + helm → socketed helm	1			100					2	helm,nos,uni	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+world shard + shield → socketed shield	1			100					2	shld,nos,uni	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+world shard + torso → socketed torso	1			100					2	tors,nos,set	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+world shard + weapon → socketed weapon	1			100					2	weap,nos,set	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+world shard + helm → socketed helm	1			100					2	helm,nos,set	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+world shard + shield → socketed shield	1			100					2	shld,nos,set	wsh						useitem				sock			1	6	corruption		100	1																																																																											0
+key + torso → socketed torso	1			100					2	tors,nos,nor	key,qty=1						useitem				sock			6	6																																																																															0
+key + weapon → socketed weapon	1			100					2	weap,nos,nor	key,qty=1						useitem				sock			6	6																																																																															0
+key + helm → socketed helm	1			100					2	helm,nos,nor	key,qty=1						useitem				sock			6	6																																																																															0
+key + shield → socketed shield	1			100					2	shld,nos,nor	key,qty=1						useitem				sock			6	6																																																																															0
 Key → token of absolution	1			0	18	70	1		1	key							toa																																																																																							0
-token of absolution → helrune (for testing)	1			0					1	toa							wsh																																																																																							0
-regenerate an item	1			0						any,noe,nos	key,qty=1						useitem,reg																																																																																							0
-regenerate an item (eth)	1			0						any,eth,nos	key,qty=1						useitem,reg,eth																																																																																							0
+token of absolution → worldstone shard (for testing)	1			0					1	toa							wsh																																																																																							0
 SafeUnsocket	1			100					2	any,sock	key,qty=1						useitem,rem																																																																																							0
 gems gcv -> stackable zcv	1			0					1	gcv							zcv																																																																																							0
 gems stackable zcv -> gcv	1			0	18	70	1		1	zcv							gcv																																																																																							0
@@ -1889,6 +1895,17 @@ runes release r33 from stack of x4 s33	1			100	18	70	4		1	s33							s33,qty=3			
 runes release r33 from stack of x3 s33	1			100	18	70	3		1	s33							s33,qty=2																													r33																																																										0
 runes release r33 from stack of x2 s33	1			100	18	70	2		1	s33							s33,qty=1																													r33																																																										0
 fragments jew -> stackable jfg	1			100					1	jew							jfg																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					12	jew,qty=12							jfg,qty=12																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					11	jew,qty=11							jfg,qty=11																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					10	jew,qty=10							jfg,qty=10																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					9	jew,qty=9							jfg,qty=9																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					8	jew,qty=8							jfg,qty=8																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					7	jew,qty=7							jfg,qty=7																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					6	jew,qty=6							jfg,qty=6																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					5	jew,qty=5							jfg,qty=5																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					4	jew,qty=4							jfg,qty=4																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					3	jew,qty=3							jfg,qty=3																																																																																							0
+fragments jew multiples -> stackable jfg	1			100					2	jew,qty=2							jfg,qty=2																																																																																							0
 fragments release jew from stack of x72 jfg	1			100	18	70	72		1	jfg							jfg,qty=71																													jew																																																										0
 fragments release jew from stack of x71 jfg	1			100	18	70	71		1	jfg							jfg,qty=70																													jew																																																										0
 fragments release jew from stack of x70 jfg	1			100	18	70	70		1	jfg							jfg,qty=69																													jew																																																										0

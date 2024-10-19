@@ -17,9 +17,11 @@ I'm focusing on QOL features but trying to leave the game as classic as I can.
 - **Skip Intro** - skip the intro videos when you boot the game
 - **Main Menu** - removed character models to show you scenes of Santuary
 - **Extra Stash** - stash has the max 7 tabs allowed by the game
+- **Cube Expansion** - cube is 2x as large for twice as much loot
 - **Cain Location** - Deckard Cain now stands by the stash in Act V
 - **Amazon Retouch** - restoring model to be closer to original game
 - **Loot Filter** - shortening names w/ icons since we don't have a true loot filter
+- **Potion Boost** - all temporary potions last 5 minutes (from 30 seconds)
 - **Magic Quivers** - arrows and bolts can be magic and rare
 - **Infinite Ammo** - quivers and throwing weapons replenish quantity
 - **Splash Damage** - all melee weapons have splash damage (tuned low at 25%)
@@ -33,13 +35,13 @@ I'm focusing on QOL features but trying to leave the game as classic as I can.
 - **Stackable Runes** - cube a rune to convert to stackable form
 - **Safe Unsocket** - socketed item + key -> get the item and runes back
 - **Corrupted Items** - unsocketed unique/set item + Worldstone Shard -> socketed item
-- **Jewel Fragments** - cube a unwanted jewels into stackable jewel fragments
+- **Jewel Fragments** - cube unwanted jewels into stackable jewel fragments
 
 ### Todo
 
 - Enable en masse gem upgrades by the stack
-- Add new sprites for Jewel Fragment and Worldstone Shard
-- Make Jewel Fragment recipies work as if it were a Jewel
+- Add new sprites for Jewel Fragment and Worldstone Shard (help needed)
+- Make Jewel Fragment recipies actually work as if it were a Jewel
 
 ## Install
 
@@ -82,6 +84,7 @@ With a little help from my friends:
 - [olegbl](https://www.nexusmods.com/diablo2resurrected/mods/176?tab=description) - original stackable gem/rune icons
 - [deadjack](https://www.nexusmods.com/diablo2resurrected/mods/8?tab=files) - original melee splash mod
 - [yoloswag](https://www.nexusmods.com/diablo2resurrected/mods/45) - original Amazon retouch
+- [olegbl](https://www.nexusmods.com/diablo2resurrected/mods/189?tab=files) - original expanded cube
 
 ## External Links
 
