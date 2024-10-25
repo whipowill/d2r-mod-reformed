@@ -219,23 +219,10 @@
             }
         },
         {
-            "type": "ButtonWidget", "name": "OnlinePlaySettingsButton",
+            "type": "ButtonWidget", "name": "QuickPlayButton2",
             "fields": {
                 "anchor": { "x": 0.5 },
-                "rect": { "x": -366, "y": 2017 },
-                "filename": "FrontEnd\\HD\\Final\\FrontEnd_Cog",
-                "tooltipString": "@GameCreationHD",
-                "onClickMessage": "PanelManager:OpenPanel:OnlineGameSettingsPanel",
-                "hoveredFrame": 2,
-                "disabledFrame": 3,
-                "disabledTint": { "a": 1.0 },
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "QuickPlayButton",
-            "fields": {
-                "anchor": { "x": 0.5 },
-                "rect": { "x": -1010, "y": 1865 },
+                "rect": { "x": -710, "y": 1865 },
                 "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonLarge",
                 "textString": "@PlayTab",
                 "onClickMessage": "MainMenuHD:Play",
@@ -246,10 +233,25 @@
                 "disabledFrame": 2,
                 "disabledTint": { "a": 1.0 },
                 "sound": "cursor_launch_game_hd",
-            }
+            },
+            "children": [
+                {
+                    "type": "ButtonWidget", "name": "OnlinePlaySettingsButton",
+                    "fields": {
+                        "anchor": { "x": 0.5, "y": 1.0 },
+                        "rect": { "x": -47, "y": 8 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_Cog",
+                        "tooltipString": "@GameCreationHD",
+                        "onClickMessage": "PanelManager:OpenPanel:OnlineGameSettingsPanel",
+                        "hoveredFrame": 2,
+                        "disabledFrame": 3,
+                        "disabledTint": { "a": 1.0 },
+                    }
+                },
+            ]
         },
         {
-            "type": "ImageWidget", "name": "Divider",
+            "type": "ImageWidget", "name": "Divider2",
             "fields": {
                 "anchor": {"x": 0.5},
                 "rect": { "x": -17, "y": 1827 },
@@ -257,12 +259,13 @@
             },
         },
         {
-            "type": "ButtonWidget", "name": "SecondaryContextButton",
+            "type": "ButtonWidget", "name": "SecondaryContextButton2",
             "fields": {
                 "anchor": {"x": 0.5 },
-                "rect": { "x": 17, "y": 1865 },
+                "rect": { "x": 100, "y": 1865 },
                 "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonLarge",
-                "onClickMessage": "FrontEndNavigation:ToLobby",
+                "textString": "TCP/IP",
+                "onClickMessage": "PanelManager:OpenPanel:TCPIPPanel",
                 "text/style": "$StyleFEButtonText",
                 "pointSize": "$ExtraLargeFontSize",
                 "textColor": "$LightButtonTextColor",
