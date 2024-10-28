@@ -55,10 +55,10 @@ These instructions assume you have the [D2R 2.4 TCP/IP Release](https://discord.
 - Copy my stash files from ``Saved Games/`` into your user D2R Saved Games folder
     - This folder is usually ``C://users/YOURUSERNAME/Saved Games/Diablo II Resurrected/``
     - THIS ACTION WILL ERASE YOUR SHARED STASH!
-- Make a game shortcut for ``C://path/to/D2R/Optional Content/D2R_Plugins/D2R_Plugins/D2R_Plugins.exe``
-- Open ``C://path/to/D2R/Optional Content/D2R_Plugins/D2R_Plugins/D2R_Plugins.exe`` in a text editor
-- Edit ``CommandLineArguments`` so it reads ``-mod reformed -txt -resetofflinemaps -enablerespec -cheats``
-- Launch ``D2R_Plugins.exe`` and enjoy the game
+- Navigate to ``C://path/to/D2R/Optional Content/D2R_Plugins/D2R_Plugins/``
+- Make a game shortcut for ``D2R_Plugins.exe`` and put it on your desktop
+- Open ``config.json`` and change ``CommandLineArguments`` to ``-mod reformed -txt -resetofflinemaps -enablerespec -cheats``
+- Launch you game shortcut and enjoy the chill vibes
 
 ## Notes
 
