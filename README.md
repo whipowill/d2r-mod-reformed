@@ -49,13 +49,14 @@ I'm focusing on QOL features but trying to leave the game as classic as I can.
 These instructions assume you have the [D2R 2.4 TCP/IP Release](https://discord.com/channels/897073630868013057/1299116816752185455).
 
 - Download this [zipfile](https://github.com/whipowill/d2r-mod-reformed/archive/master.zip) and extract it
-- Place ``reformed.mpq`` inside the ``/path/to/D2R/Mods/reformed/`` folder
+- Place ``reformed.mpq`` inside the ``C://path/to/D2R/Mods/reformed/`` folder
 - Download the icon font file (100mb) from [here](https://mega.nz/folder/2d5DQBQC#VQoZVQUwnf0JzgEr1qplYg)
-- Place font in ``mods/reformed/reformed.mpq/data/hd/ui/fonts/``
+- Place font in ``C://path/to/D2R/Mods/reformed/reformed.mpq/data/hd/ui/fonts/``
 - Copy my stash files from ``Saved Games/`` into your user D2R Saved Games folder
+    - This folder is usually ``C://users/YOURUSERNAME/Saved Games/Diablo II Resurrected/``
     - THIS ACTION WILL ERASE YOUR SHARED STASH!
-- Make a game shortcut for ``/path/to/D2R/Optional Content/D2R_Plugins/D2R_Plugins/D2R_Plugins.exe``
-- Open ``/path/to/D2R/Optional Content/D2R_Plugins/D2R_Plugins/D2R_Plugins.exe`` in a text editor
+- Make a game shortcut for ``C://path/to/D2R/Optional Content/D2R_Plugins/D2R_Plugins/D2R_Plugins.exe``
+- Open ``C://path/to/D2R/Optional Content/D2R_Plugins/D2R_Plugins/D2R_Plugins.exe`` in a text editor
 - Edit ``CommandLineArguments`` so it reads ``-mod reformed -txt -resetofflinemaps -enablerespec -cheats``
 - Launch ``D2R_Plugins.exe`` and enjoy the game
 
