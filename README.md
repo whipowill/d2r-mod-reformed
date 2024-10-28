@@ -66,7 +66,7 @@ When dealing w/ stackable gems and runes, convert them into their stackable form
 
 I made all stackable items (keys, gems, runes, fragments, shards) where if you cube the stack it will break off one from the stack for you.
 
-To disable or tweak melee splash damage, open ``mods/reformed/reformed.mpq/data/global/excel/missiles.txt`` and look for row 688 column DH.  I have this set to ``32`` which means 25% of weapon damage gets splashed (pretty low).  Changing to ``64`` would mean 50% of weapon damage gets splashed.  Changing to ``0`` would mean the feature is disabled.
+To disable or tweak melee splash damage, open ``mods/reformed/reformed.mpq/data/global/excel/missiles.txt`` and look for row 688 column DH.  I have this set to ``64`` which means 50% of weapon damage gets splashed (PD2 uses 100%).  Changing to ``128`` would mean 100% of weapon damage gets splashed.  Changing to ``0`` would mean the feature is disabled.
 
 ### Failures
 
