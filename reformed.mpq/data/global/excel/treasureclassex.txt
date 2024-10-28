@@ -25,23 +25,23 @@ Potion 3			1						hp2	6	hp3	6	hp4	4	mp3	3	mp4	3	rvs	1	vps	2	yps	2	wms	1						0
 Potion 4			1						hp3	6	hp4	6	hp5	4	mp4	3	mp5	3	rvs	1	vps	2	yps	2	wms	1						0
 Potion 5			1						hp3	4	hp4	6	hp5	6	mp5	5	rvs	1	vps	2	yps	2	wms	1								0
 Potion 6			1						hp4	6	hp5	8	mp4	1	mp5	5	rvs	1	vps	2	yps	2	wms	1								0
-Runes 1			1						r01	3	r02	3																				0
-Runes 2			1						r03	3	r04	3	Runes 1	9																		0
-Runes 3			1						r05	3	r06	3	Runes 2	15																		0
-Runes 4			1						r07	3	r08	3	Runes 3	21																		0
-Runes 5			1						r09	3	r10	3	Runes 4	27																		0
-Runes 6			1						r11	3	r12	3	Runes 5	33																		0
-Runes 7			1						r13	3	r14	3	Runes 6	39																		0
-Runes 8			1						r15	2	r16	2	Runes 7	45																		0
-Runes 9			1						r17	2	r18	2	Runes 8	49																		0
-Runes 10			1						r19	2	r20	2	Runes 9	53																		0
-Runes 11			1						r21	2	r22	2	Runes 10	57																		0
-Runes 12			1						r23	2	r24	2	Runes 11	61																		0
-Runes 13			1						r25	2	r26	1	Runes 12	65																		0
-Runes 14			1						r27	1	r28	1	Runes 13	68																		0
-Runes 15			1						r29	1	r30	1	Runes 14	70																		0
-Runes 16			1						r31	1	r32	1	Runes 15	72																		0
-Runes 17			1						r33	1	Runes 16	74																				0
+Runes 1			1						r01	10	r02	10																				0
+Runes 2			1						r03	10	r04	10	Runes 1	20																		0
+Runes 3			1						r05	10	r06	10	Runes 2	40																		0
+Runes 4			1						r07	10	r08	10	Runes 3	60																		0
+Runes 5			1						r09	10	r10	10	Runes 4	80																		0
+Runes 6			1						r11	10	r12	10	Runes 5	100																		0
+Runes 7			1						r13	10	r14	10	Runes 6	120																		0
+Runes 8			1						r15	5	r16	5	Runes 7	140																		0
+Runes 9			1						r17	5	r18	5	Runes 8	150																		0
+Runes 10			1						r19	5	r20	5	Runes 9	160																		0
+Runes 11			1						r21	5	r22	5	Runes 10	170																		0
+Runes 12			1						r23	5	r24	5	Runes 11	180																		0
+Runes 13			1						r25	5	r26	1	Runes 12	190																		0
+Runes 14			1						r27	1	r28	1	Runes 13	196																		0
+Runes 15			1						r29	1	r30	1	Runes 14	198																		0
+Runes 16			1						r31	1	r32	1	Runes 15	200																		0
+Runes 17			1						r33	1	Runes 16	202																				0
 Act 1 Junk			1						Potion 1	8	Misc 0	4	Ammo	4																		0
 Act 2 Junk			1						Act 1 Junk	2	Potion 2	8	Misc 0	4	Ammo	4																0
 Act 3 Junk			1						Act 2 Junk	2	Potion 3	8	Misc 1	4	Ammo	4																0
