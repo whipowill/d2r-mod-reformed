@@ -27,9 +27,9 @@ I'm focusing on QOL features but trying to leave the game as classic as I can.
 - **Infinite Ammo** - quivers and throwing weapons replenish quantity
 - **Splash Damage** - all melee weapons have splash damage (set at 50%)
 - **Countess Counts** - always drops 3 runes, and can drop higher than before
-- **Rune Drops** - high runes are much less punishing to find
+- **Rune Drops** - high runes are less punishing to find
 - **Druid Fixes** - shapeshift lasts longer, vines and spirits never die
-- **Merc Auras** - Blessed Aim in Act 1, Meditation in Act 3, and Might in Act 4
+- **Merc Auras** - Blessed Aim in Act 1, Meditation in Act 3, and Might in Act 5
 - **Simple Upgrades** - 3x gem to upgrade gem, 2x rune to upgrade rune
 - **Easy Respec** - cube a key to get a Token of Absolution
 - **Stackable Gems** - cube a gem to convert to stackable form
@@ -40,6 +40,7 @@ I'm focusing on QOL features but trying to leave the game as classic as I can.
 
 ### Todo
 
+- Add new lvl 85 zones
 - Enable en masse gem upgrades by the stack
 - Add new sprites for Jewel Fragment and Worldstone Shard (help needed)
 - Make Jewel Fragment recipies actually work as if it were a Jewel
@@ -57,8 +58,10 @@ These instructions assume you have the [D2R 2.4 TCP/IP Release](https://discord.
     - THIS ACTION WILL ERASE YOUR SHARED STASH!
 - Navigate to ``C://path/to/D2R/Optional Content/D2R_Plugins/D2R_Plugins/``
 - Make a game shortcut for ``D2R_Plugins.exe`` and put it on your desktop
-- Open ``config.json`` and change ``CommandLineArguments`` to ``-mod reformed -txt -resetofflinemaps -enablerespec -cheats``
-- Launch you game shortcut and enjoy the chill vibes
+- Open ``config.json`` in a text editor
+- Change ``CommandLineArguments`` to ``-mod reformed -txt -resetofflinemaps -enablerespec -cheats``
+- Save and close the text editor
+- Launch your game shortcut and enjoy the chill vibes
 
 ## Notes
 
